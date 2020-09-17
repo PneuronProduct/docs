@@ -1,0 +1,45 @@
+site_name: Pneuron Docs
+nav:
+    - Home: index.md
+    - About: about.md
+    - Pneuron Design Studio:
+        - Design Studio Overview: DesignStudio/DesignStudioGuide.md
+        - Basic Navigation: DesignStudio/BasicNavigation.md
+        - General Usage: DesignStudio/GeneralUsage.md
+        - Menu Commands And Functions: DesignStudio/MenuCommandsAndFunctions.md
+        - Project Menu Command And Functions: DesignStudio/ProjectMenuCommandsAndFunctions.md
+        - Pneuron Descriptions: DesignStudio/PneuronDescriptions.md
+        - Alias Descriptions: DesignStudio/AliasDescriptions.md
+        - Glossary And Terms: DesignStudio/GlossaryAndTerms.md
+    - Pneuron Enterprise Control Manager:
+        - Enterprise Control Manager Overview: EnterpriseControlManager/EnterpriseControlManagerGuide.md
+        - Understanding The Enterprise Control Manager: EnterpriseControlManager/UnderstandingPneuronEnterpriseControlManager.md
+        - Using The Report Builder: EnterpriseControlManager/UsingTheReportBuilder.md
+        - Widget Descriptions: EnterpriseControlManager/WidgetDescriptions.md
+        - Working With Dashboards: EnterpriseControlManager/WorkingWithDashboards.md
+        - Working With Widgets: EnterpriseControlManager/WorkingWithWidgets.md
+    - Pneuron Administration:
+        - Administration Overview: Administration/AdministrationGuide.md
+        - Data Management: Administration/DataManagement.md
+        - Managing Pneuron Sources: Administration/ManagingPneuronSources.md
+        - Pneuron Security: Administration/PneuronSecurity.md
+        - Understanding Pneuron Administration: Administration/UnderstandingPneuronAdministration.md
+    - Pneuron Architecture:
+        - Pneuron Architecture: PneuronArchitecture/PneuronArchitecture.md
+        - Configuration Web Services: PneuronArchitecture/ConfigurationServices.md
+        - License Web Services: PneuronArchitecture/LicenseServices.md
+        - Message Web Services: PneuronArchitecture/MessageServices.md
+        - Lock Web Services: PneuronArchitecture/LockServices.md
+        - Monitoring Web Services: PneuronArchitecture/MonitoringServices.md
+        - Robot Web Services: PneuronArchitecture/RobotServices.md
+    - Installation:
+        - Pneuron Installation (Linux): Installation/PneuronInstallationLinux.md
+        - Pneuron Installation (Windows): Installation/PneuronInstallationWindows.md
+theme: 
+    name: readthedocs
+    custom_dir: 'custom_theme'
+    icon:
+        wy-side-nav-search: [img/pn.png]
+docs_dir: 'docs'
+site_dir: 'site'
+extra_css: [css/custom.css]
