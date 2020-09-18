@@ -56,7 +56,6 @@ ___
 
 The **FileDownloader** widget allows a user to download a single or multiple files.
 
-![image.png](../img/ECM/WidgetDescriptions/filedownloadexample.png)
 ___
 ###![image.png](../img/ECM/WidgetDescriptions/dialchart.png) Dial Chart
 
