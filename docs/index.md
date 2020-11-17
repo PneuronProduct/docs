@@ -1,11 +1,5 @@
-[[_TOC_]]
-
 #The Pneuron Distributed Platform
 Pneuron’s Distributed Platform is composed of a series of purpose-built Pneurons™ (i.e. retrieve, analyze, derive, present) visually configured through the Design Studio™ and assembled into processing networks. Scheduling and execution of each Pneuron and network is controlled by the Cortex™, with results visualized and manipulated in the Enterprise Control Manager™.
-
-<video width="640" height="480" controls>
-  <source src="img/simplenetwork1.mp4" type="video/mp4">
-</video>
 
 ##Pneurons
 Distributed, lightweight, fixed-function, interoperable processing components that non-invasively connect to individual source systems to create a powerful processing network that sidesteps today’s time and cost penalties.
