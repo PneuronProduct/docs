@@ -108,7 +108,7 @@ The following steps assume the Pneuron installation directory is `/opt/pneuron`.
 6. Change tot he kit directory
 7. Run the `install.sh` script and provide appropriate responses to the following questions:
 
-    Default answers are shown in brackets. Modify as required.
+   Default answers are shown in brackets. Modify as required.
    ```
    Enter the path to JAVA_HOME [/opt/java]
    Enter the path to install the Pneuron server [/opt/pneuron]

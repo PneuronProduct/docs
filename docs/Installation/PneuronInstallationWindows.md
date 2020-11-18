@@ -1,4 +1,4 @@
-#Overview
+#Windows Installation
 The following is about how to install Pneuron in a Windows environment
 
 ##Pneuron Installation Introduction
@@ -110,14 +110,12 @@ If you are using Windows XP, the Pneuron installation directory is automatically
 
     ![image.png](../img/Installation/Windows/w3.png)
 
-    > Alternatively, the installation program can be invoked from a command prompt:
+    - Alternatively, the installation program can be invoked from a command prompt:
     
-	> Open a command prompt and navigate to the directory containing the installation files.
+	>Open a command prompt and navigate to the directory containing the installation files.
  
-    - For 64-bit systems
-    Execute the command: `javaw -jar pneuron_install_x64.jar` 
-    - For 32-bit systems
-    Execute the command: `javaw -jar pneuron_install.jar`
+    - For 64-bit systems execute the command: `javaw -jar pneuron_install_x64.jar` 
+    - For 32-bit systems execute the command: `javaw -jar pneuron_install.jar`
 
 4. Click **Next**.
 
@@ -359,9 +357,9 @@ Updating Pneuron to the latest version is a similar process to the initial insta
 
    ![image.png](../img/Installation/Windows/w20.png)
 
-   > Both applications are selected above. This is appropriate for a single server install. If configuring a web server and Pneuron server, Server should be selected for the Pneuron Server and Pneuron UI selected for the web server. In this case, the install process is executed on both machines.
-
 7. Click **Next**. The following screen shows the installation progress.
+
+   > Both applications are selected above. This is appropriate for a single server install. If configuring a web server and Pneuron server, Server should be selected for the Pneuron Server and Pneuron UI selected for the web server. In this case, the install process is executed on both machines.
 
    ![image.png](../img/Installation/Windows/w21.png)
 
@@ -374,6 +372,28 @@ Updating Pneuron to the latest version is a similar process to the initial insta
    ![image.png](../img/Installation/Windows/w23.png)
 
 10. Click **Done**. The Pneuron application installation is complete.
+
+The directories created by the installation are show below:
+
+| Install Directory | Description |
+| --- | --- |
+| Admin | The Pneuron Administration application war file  |
+| bin | Shell/batch scripts used to run the server  |
+| cache | Temporary files created by specific Pneurons |
+| cfg | Property/configuration files  |
+| db | Database schema files in XML format  |
+| DS | The Pneuron Design Studio application war file  |
+| ECM | The Enterprise Control Manager application war file (if purchased by customer)  |
+| HUD | Heads Up Display components |
+| images | Legacy images |
+| javadoc | Java documents for the com.pneuron  package  |
+| Javadoc.srx | Java documents for the com.softwarerx package  |
+| jetty | Servlet/web engine for Pneuron web services |
+| keys | Pneuron encryption keys |
+| lib | Pneuron and third-party `.jar` files  |
+| logs | Pneuron log files |
+| PMonit | Monitor tool war file  |
+| Uninstaller | Files to support Pneuron removal  |
 
 ###Updating the Pneuron Webapp Directories
 
