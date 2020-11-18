@@ -97,45 +97,45 @@ If you are using Windows XP, the Pneuron installation directory is automatically
 
 
 1. Copy the Pneuron installation media contents to a local drive and navigate to that directory. The directory will contain the files shown:
-![image.png](../img/Installation/Windows/w1.png)
+
+    ![image.png](../img/Installation/Windows/w1.png)
 
 2. Create an installation directory to contain the Pneuron application. This document uses the directory `c:\pneuron` as the installation directory. This location can be modified to support customer requirements.
 
 3. Double-click on the appropriate installation file. The following screen appears.
 
-![image.png](../img/Installation/Windows/w2.png)
+    ![image.png](../img/Installation/Windows/w2.png)
 
-If the screen does not appear, it may be because the file association for .jar files is not set to Java. To modify the setting, navigate to _Control Panel->Default Programs->Associate a file type or protocol with a program_. Scroll to the .jar entry. If the Current Default is not associated with Java, use the _Change program…_ button to modify.
+    > If the screen does not appear, it may be because the file association for .jar files is not set to Java. To modify the setting, navigate to _Control Panel->Default Programs->Associate a file type or protocol with a program_. Scroll to the .jar entry. If the Current Default is not associated with Java, use the _Change program…_ button to modify.
 
-![image.png](../img/Installation/Windows/w3.png)
+    ![image.png](../img/Installation/Windows/w3.png)
 
-Alternatively, the installation program can be invoked from a command prompt:
-Open a command prompt and navigate to the directory containing the installation files.
+    > Alternatively, the installation program can be invoked from a command prompt:
+    
+	> Open a command prompt and navigate to the directory containing the installation files.
  
- - For 64-bit systems
-   Execute the command: `javaw -jar pneuron_install_x64.jar` 
- - For 32-bit systems
-   Execute the command: `javaw -jar pneuron_install.jar`
+    - For 64-bit systems
+    Execute the command: `javaw -jar pneuron_install_x64.jar` 
+    - For 32-bit systems
+    Execute the command: `javaw -jar pneuron_install.jar`
 
 4. Click **Next**.
 
 5. Click the **Browse** button and navigate to the folder containing the Java Developer Kit (JDK) and click **Save**.
 
-![image.png](../img/Installation/Windows/w3.png)
+    ![image.png](../img/Installation/Windows/w3.png)
 
-The path now appears in the Browse field.  This tells the Pneuron application where to find the JDK, as the Pneuron application requires the JDK in order to run.
+    > The path now appears in the Browse field.  This tells the Pneuron application where to find the JDK, as the Pneuron application requires the JDK in order to run.
 
 6. Click **Next**. The path for the installation appears.
 
-![image.png](../img/Installation/Windows/w4.png)
+    ![image.png](../img/Installation/Windows/w4.png)
 
 7. Select `C:\pneuron` as the installation path and click **Next**.
    > _**Note**_:
    If the installation directory was created in a previous step, click Yes on the warning 'The directory already         
    exists!'. 
-   The default installation path is `c:\pneuron`. This can be modified to support customer requirements.
-
-   The following screen appears:
+   The default installation path is `c:\pneuron`. This can be modified to support customer requirements. The following screen appears:
    
    ![image.png](../img/Installation/Windows/w5.png)
    
@@ -143,15 +143,15 @@ The path now appears in the Browse field.  This tells the Pneuron application wh
 
 8. Click **Next**. The following screen shows the installation progress
 
-![image.png](../img/Installation/Windows/w6.png)
+    ![image.png](../img/Installation/Windows/w6.png)
 
 9. When the installation process is finished, click **Next**.
 
-![image.png](../img/Installation/Windows/w7.png)
+    ![image.png](../img/Installation/Windows/w7.png)
 
 10. Click **Next**.
 
-![image.png](../img/Installation/Windows/w8.png)
+    ![image.png](../img/Installation/Windows/w8.png)
 
 11. Click **Done**. The Pneuron application installation is complete.
 
@@ -234,8 +234,6 @@ After the Pneuron installation process has completed, you must configure the Pne
 ###Creating the `pneuron_config` Database
 
 1. From a command prompt, change to the Pneuron installation directory and type `bin\setup` and press Enter.
-
-   Configuring the Pneuron Data Source
    
    ![image.png](../img/Installation/Windows/w9.png)
 
@@ -244,14 +242,10 @@ After the Pneuron installation process has completed, you must configure the Pne
    ![image.png](../img/Installation/Windows/w10.png)
 
 3. Type the appropriate number for the database type and press Enter. Enter the appropriate database details when prompted. The example below assumes MS SQL Server as the target database.
-
-   Enter Database Access Credentials
    
    ![image.png](../img/Installation/Windows/w11.png)
 
 4. Confirm your selections, type `Y` and press Enter. The output generated by the database population is displayed.
-
-   Create and Populate Database Schema
    
    !![image.png](../img/Installation/Windows/w12.png)
 
@@ -294,8 +288,6 @@ After the installation process has been completed, start the Pneuron server and 
 ###Starting the Pneuron Server
 
 From a command prompt, change directory to the Pneuron installation directory and type `bin\server` and press Enter.  The message `Initialization Complete` will appear, indicating that the Pneuron server has been started. 
-
-Start Pneuron Server
 
 ![image.png](../img/Installation/Windows/w15.png)
 
@@ -343,14 +335,11 @@ Updating Pneuron to the latest version is a similar process to the initial insta
 
    ![image.png](../img/Installation/Windows/w17.png)
 
-   Alternatively, the installation program can be invoked from a command prompt.
-Open a command prompt and navigate to the directory containing the installation files.
+   > Alternatively, the installation program can be invoked from a command prompt. Open a command prompt and navigate to the directory containing the installation files.
 
-- For 64-bit systems
-Execute the command: `javaw -jar pneuron_install_x64.jar`
+   - For 64-bit systems execute the command: `javaw -jar pneuron_install_x64.jar`
 
-- For 32-bit systems
-Execute the command: `javaw -jar pneuron_install.jar`
+   - For 32-bit systems execute the command: `javaw -jar pneuron_install.jar`
 
 3. Click **Next**.
 
@@ -358,7 +347,7 @@ Execute the command: `javaw -jar pneuron_install.jar`
 
    ![image.png](../img/Installation/Windows/w18.png)
 
-   The path now appears in the Browse field.  This tells the Pneuron application where to find the JDK, as the Pneuron application requires the JDK in order to run.
+   > The path now appears in the Browse field.  This tells the Pneuron application where to find the JDK, as the Pneuron application requires the JDK in order to run.
 
 5. Click **Next**.  The path for the installation appears.
 
@@ -366,10 +355,7 @@ Execute the command: `javaw -jar pneuron_install.jar`
 
 6. Select `C:\pneuron` as the installation path and click **Next**.
 
-   > _**Note**_: 
-The installation directory was created during the initial application installation. Click Yes on the warning ‘The directory already exists!’. 
-
-   The following screen appears.
+   > _**Note**_: The installation directory was created during the initial application installation. Click Yes on the warning ‘The directory already exists!’. The following screen appears.
 
    ![image.png](../img/Installation/Windows/w20.png)
 
