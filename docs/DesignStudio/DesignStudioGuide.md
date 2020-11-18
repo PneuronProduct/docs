@@ -10,7 +10,8 @@ Each Pneuron serves as part of a network of other connected Pneurons and is cust
 
 The Query Builder within Pneuron Design Studio™ enables users to create queries using predefined SQL, thus eliminating the need for a deep knowledge of SQL. 
 
-The Pneuron Design Studio™ is part of the Pneuron Applications Suite, which consists of the following: 
+The Pneuron Design Studio™ is part of the Pneuron Applications Suite, which consists of the following:
+
 - Pneuron Design Studio™ 
 - Pneuron Administration 
 - Pneuron Enterprise Control Manager™ (ECM) 
