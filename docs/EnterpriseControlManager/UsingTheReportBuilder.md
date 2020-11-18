@@ -20,7 +20,7 @@ To select a data source for the widget:
 2. Click on the **Data Source** tab in the bottom right section of ECM. Select the data source name created for this widget and click the **Edit** button. The data source editor screen appears.
 3. Click the Create/Edit Query button. The Select Tables screen of the ECM Report Builder is displayed. Additionally, the data source can be a predefined SQL query or SQL view.
 
-   ![image.png](img/ECM/ReportBuilder/rb1.png)
+   ![image.png](../img/ECM/ReportBuilder/rb1.png)
 
 There are four options for selecting a data source:
 
@@ -33,7 +33,7 @@ There are four options for selecting a data source:
 1. From the Select Tables screen within the ECM Report Builder, expand a data source from the Available Data Sources box and select the tables from the databases to use for the query in this widget.
 2. Click and drag the selected tables to the empty box on the right (or use the arrow button to move the fields).
 
-    ![image.png](img/ECM/ReportBuilder/rb2.png)
+    ![image.png](../img/ECM/ReportBuilder/rb2.png)
 3. Click Next. The Select Parents screen appears. Refer to the section Step 2 – Creating a Parent/Child Widget.
 
 ###Creating a New Data Source
@@ -42,7 +42,7 @@ To create a new data source:
 1. From the Available Data Sources box within the Select Tables screen, expand the Create new Datasource Alias entry and select the option New Datasource Alias. The following dialog box appears.
 2. Enter the appropriate data source values for the following fields and click OK.
 
-    ![image.png](img/ECM/ReportBuilder/rb3.png)
+    ![image.png](../img/ECM/ReportBuilder/rb3.png)
 
 
   | **Property** | **Description** |
@@ -72,7 +72,7 @@ After you select the tables and data sources for the widget in the ECM Report Bu
 
 If you do not want to select a parent for this widget, click the Next button to proceed to the Table Relations screen.
 
-![image.png](img/ECM/ReportBuilder/rb4.png)
+![image.png](../img/ECM/ReportBuilder/rb4.png)
 
 To select a parent for a child widget:
 
@@ -83,7 +83,7 @@ To select a parent for a child widget:
 ##Step 3 - Selecting Table Relations
 Within the ECM Report Builder, you can construct a relation between two or more tables within the query so data from multiple tables are joined into the current widget. You can select additional tables by using the **Add New** button.
 
-![image.png](img/ECM/ReportBuilder/rb5.png)
+![image.png](../img/ECM/ReportBuilder/rb5.png)
 
 1. From the Table Relations screen, select the appropriate table attributes for the following fields and click Save.
 
@@ -144,7 +144,7 @@ To add a condition to a field:
 ##Step 6 - Grouping Fields
 After you apply conditions, parameters, and functions to various fields for the widget, you can specify how the information should be grouped and/or ordered for the widget.
 
-![image.png](img/ECM/ReportBuilder/rb6.png)
+![image.png](../img/ECM/ReportBuilder/rb6.png)
 
 1. From the **Available Fields** box, click and drag the fields you want to use to the **Group By** and **Order By** boxes (or use the arrow buttons to move the fields).
 2. Use the green arrows to arrange the fields in the order that you want the information to be grouped or ordered by.
@@ -156,7 +156,7 @@ Queries enable the widgets to retrieve the appropriate data and provide the resu
 
 The Create Query screen enables you to view the query you have generated for the current widget. To edit the query, you must click the step number corresponding to the type of change you wish to make.
 
-![image.png](img/ECM/ReportBuilder/rb7.png)
+![image.png](../img/ECM/ReportBuilder/rb7.png)
 
 1. From the **Create Query** screen, view the query you have generated.
 2. In the **Query Name** field, enter a name for this query.

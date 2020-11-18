@@ -3,38 +3,38 @@ nav:
     - Home: index.md
     - About: about.md
     - Pneuron Design Studio:
-        - Design Studio Overview: DesignStudioGuide.md
-        - Basic Navigation: BasicNavigation.md
-        - General Usage: GeneralUsage.md
-        - Menu Commands And Functions: MenuCommandsAndFunctions.md
-        - Project Menu Command And Functions: ProjectMenuCommandsAndFunctions.md
-        - Pneuron Descriptions: PneuronDescriptions.md
-        - Alias Descriptions: AliasDescriptions.md
-        - Glossary And Terms: GlossaryAndTerms.md
+        - Design Studio Overview: DesignStudio/DesignStudioGuide.md
+        - Basic Navigation: DesignStudio/BasicNavigation.md
+        - General Usage: DesignStudio/GeneralUsage.md
+        - Menu Commands And Functions: DesignStudio/MenuCommandsAndFunctions.md
+        - Project Menu Command And Functions: DesignStudio/ProjectMenuCommandsAndFunctions.md
+        - Pneuron Descriptions: DesignStudio/PneuronDescriptions.md
+        - Alias Descriptions: DesignStudio/AliasDescriptions.md
+        - Glossary And Terms: DesignStudio/GlossaryAndTerms.md
     - Pneuron Enterprise Control Manager:
-        - Enterprise Control Manager Overview: EnterpriseControlManagerGuide.md
-        - Understanding The Enterprise Control Manager: UnderstandingPneuronEnterpriseControlManager.md
-        - Using The Report Builder: UsingTheReportBuilder.md
-        - Widget Descriptions: WidgetDescriptions.md
-        - Working With Dashboards: WorkingWithDashboards.md
-        - Working With Widgets: WorkingWithWidgets.md
+        - Enterprise Control Manager Overview: EnterpriseControlManager/EnterpriseControlManagerGuide.md
+        - Understanding The Enterprise Control Manager: EnterpriseControlManager/UnderstandingPneuronEnterpriseControlManager.md
+        - Using The Report Builder: EnterpriseControlManager/UsingTheReportBuilder.md
+        - Widget Descriptions: EnterpriseControlManager/WidgetDescriptions.md
+        - Working With Dashboards: EnterpriseControlManager/WorkingWithDashboards.md
+        - Working With Widgets: EnterpriseControlManager/WorkingWithWidgets.md
     - Pneuron Administration:
-        - Administration Overview: AdministrationGuide.md
-        - Data Management: DataManagement.md
-        - Managing Pneuron Sources: ManagingPneuronSources.md
-        - Pneuron Security: PneuronSecurity.md
-        - Understanding Pneuron Administration: UnderstandingPneuronAdministration.md
+        - Administration Overview: Administration/AdministrationGuide.md
+        - Data Management: Administration/DataManagement.md
+        - Managing Pneuron Sources: Administration/ManagingPneuronSources.md
+        - Pneuron Security: Administration/PneuronSecurity.md
+        - Understanding Pneuron Administration: Administration/UnderstandingPneuronAdministration.md
     - Pneuron Architecture:
-        - Pneuron Architecture: PneuronArchitecture.md
-        - Configuration Web Services: ConfigurationServices.md
-        - License Web Services: LicenseServices.md
-        - Message Web Services: MessageServices.md
-        - Lock Web Services: LockServices.md
-        - Monitoring Web Services: MonitoringServices.md
-        - Robot Web Services: RobotServices.md
+        - Pneuron Architecture: PneuronArchitecture/PneuronArchitecture.md
+        - Configuration Web Services: PneuronArchitecture/ConfigurationServices.md
+        - License Web Services: PneuronArchitecture/LicenseServices.md
+        - Message Web Services: PneuronArchitecture/MessageServices.md
+        - Lock Web Services: PneuronArchitecture/LockServices.md
+        - Monitoring Web Services: PneuronArchitecture/MonitoringServices.md
+        - Robot Web Services: PneuronArchitecture/RobotServices.md
     - Installation:
-        - Pneuron Installation (Linux): PneuronInstallationLinux.md
-        - Pneuron Installation (Windows): PneuronInstallationWindows.md
+        - Pneuron Installation (Linux): Installation/PneuronInstallationLinux.md
+        - Pneuron Installation (Windows): Installation/PneuronInstallationWindows.md
 theme: 
     name: readthedocs
     custom_dir: 'custom_theme'

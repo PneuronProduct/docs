@@ -35,6 +35,6 @@ After starting the Pneuron and web servers, you can start Pneuron Enterprise Con
 
     **The Pneuron Enterprise Control Manager™ Login screen appears.**
 
-    ![image.png](img/ECM/ECMGuide/login.png)
+    ![image.png](../img/ECM/ECMGuide/login.png)
 
 3. Enter your Username, Password, and Host location for Pneuron Enterprise Control Manager™. Then click Login. The Pneuron Enterprise Control Manager™ page appears.

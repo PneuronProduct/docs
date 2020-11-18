@@ -7,9 +7,9 @@ After a dashboard has been created, you can start creating widgets (graphs and c
 ###Dragging a Widget Onto the Dashboard
 Start by dragging a widget onto the dashboard.
 
-![image.png](img/ECM/WorkingWithWidgets/www1.png)
+![image.png](../img/ECM/WorkingWithWidgets/www1.png)
 
-![image.png](img/ECM/WorkingWithWidgets/www2.png)
+![image.png](../img/ECM/WorkingWithWidgets/www2.png)
 
 ###Deleting a Widget
 To delete a widget and all of its configurations:
@@ -38,7 +38,7 @@ To delete a widget and all of its configurations:
 
 ###Review of Widget Properties
 
-![image.png](img/ECM/WorkingWithWidgets/www3.png)
+![image.png](../img/ECM/WorkingWithWidgets/www3.png)
 
 | **Property** | **Description** |
 |--|--|
@@ -77,7 +77,7 @@ After the appearance attributes for the widget have been selected, you can apply
 2. Double-click on the default data source name and enter the alias name for the data source.
 3. Click the Edit button. Next, click Create/Edit Query to access the Report Builder.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www4.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www4.png)
 
 Now you can start using the Report Builder to retrieve the source data, apply conditions and parameters to fields, and generate the associated automated query that will produce the results in your charts.
 
@@ -89,7 +89,7 @@ To edit a widget data source:
 1. From the dashboard, select the widget whose data source you want to edit.
 2. Click on the Data Source tab in the bottom right section of ECM. A list of the data sources appears for the widget.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www5.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www5.png)
 
 3. Click the Edit button to modify the data source as needed.
 4. Click Save to save your settings.
@@ -102,7 +102,7 @@ To edit a widget data source group:
 1. From the dashboard, select the widget containing the data source group to edit.
 2. Click on the **Data Source Group** tab in the bottom right section of ECM. A list of the data source groups appears for the widget.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www6.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www6.png)
 
 3. Click the Edit button to modify the data source group as needed.
 4. Click Save.
@@ -114,19 +114,19 @@ To edit the colors within a widget:
 1. From the dashboard, select the widget you want to edit.
 2. Click on the Color tab in the bottom right section of ECM. The Chart field displays the currently selected widget.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www7.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www7.png)
 
 3. Click either the Color tab in the bottom right section or the arrow to present the menu list. The colors will be presented based on the chart.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www7.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www7.png)
 
 4. Click on the color to select options.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www8.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www8.png)
 
 5. Refresh the widget and note the changed colors. Use **More** to define custom colors.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www9.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www9.png)
 
 ##Editing Widget Appearance Properties
 To edit widget appearance properties:
@@ -143,7 +143,7 @@ To create a parent widget for the current widget:
 1. From the dashboard, select the widget that will be the child widget.
 2. Click the Select Parent tab in the bottom right section of ECM. A list of the parent widgets will be shown.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www10.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www10.png)
 
 3. Click the check box next to the name of the widget to designate it as the parent of this child widget.
 4. Double-click the parameter for the selected parent widget and change the name of the parameter to match the name within the current query for the current widget.
@@ -158,15 +158,15 @@ To expose user variables on the back of a widget:
 
 1. Click on the User Variable tab in the bottom right section of ECM.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www11.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www11.png)
 
 2. Click the Add New button to add a new user variable. A new row will appear within the listing. Enter a name for the new user variable.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www12.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www12.png)
 
     Click the **Edit** button for the new user variable. The New User Variable Editor Window will be displayed.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www13.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www13.png)
 
 3. Select a value from the What If Project drop-down to apply the user variables (if being used).
 4. Select a value from the What If Name drop-down to associate with the user variable (if being used).
@@ -187,7 +187,7 @@ To modify user variables:
 1. Click on the User Variables tab in the bottom right section of ECM.
 2. Click the Edit button for the selected user variable.
 
-![image.png](img/ECM/WorkingWithWidgets/www14.png)
+![image.png](../img/ECM/WorkingWithWidgets/www14.png)
 
 3. Perform the updates to the selected fields.
 4. Click the Save button to complete the user variable modifications.
@@ -197,11 +197,11 @@ To delete user variables:
 
 1. Click on the User Variables tab in the bottom right section of ECM. Click the green X to delete the selected user variable. A delete user variable confirmation popup window will be displayed.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www15.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www15.png)
 
 2. Click the OK button. The user variable will be deleted.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www16.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www16.png)
 
 ##Managing Toggle Network Functions
 ###Creating Toggle Network Functions
@@ -210,15 +210,15 @@ To create toggle network functionality:
 
 1. Click on the **Toggle Network** tab in the bottom right section of ECM.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www17.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www17.png)
 
 2. Click the **Add New** button to add a new **Toggle Network**. A new row will appear within the listing. Enter a name for the toggle network.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www18.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www18.png)
 
 3. Click on the **Edit** button. The Toggle Network Editor pop-up window will be displayed.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www19.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www19.png)
 
 4. Select the Pneuron Project and associated Pneuron within the network.
 5. In the **Label** field, enter a label name.
@@ -253,13 +253,13 @@ To edit widget user variables or parameters:
 1. From the ECM dashboard, select the widget you want to edit.
 2. Click Flip Widget in the widget title bar to view the back of the widget. A list of parameters/user variables appears for each field identified as a user variable or parameter that was configured in the **Filter Fields** screen in the Report Builder.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www20.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www20.png)
 
-      ![image.png](img/ECM/WorkingWithWidgets/www21.png)
+      ![image.png](../img/ECM/WorkingWithWidgets/www21.png)
 
 3. Drag the slider parameters to the desired values. Click the gear icon to flip to the front of the widget.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www22.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www22.png)
 
     Another way to edit user variables is the following.
 
@@ -267,11 +267,11 @@ To edit widget user variables or parameters:
 2. Click the User Variable tab in the bottom right section of the screen.
 3. Click the Edit button. The User Variable Editor appears.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www23.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www23.png)
 
 4. Enter the appropriate user variable attributes for the following fields and click Save.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www24.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www24.png)
 
 
     | **Properties** |   |
@@ -301,7 +301,7 @@ To fire a network:
 2. Click on the **Toggle Network** tab in the bottom right section of ECM and click the **Add New** button. The Toggle Editor appears.
 3. Enter a name for the **Toggle Network** and press **Edit**.
 
-    ![image.png](img/ECM/WorkingWithWidgets/www25.png)
+    ![image.png](../img/ECM/WorkingWithWidgets/www25.png)
 
 4. Enter the appropriate attributes for the following fields and click Save.
 
@@ -314,19 +314,19 @@ To fire a network:
 
 The back of the widget will show a Fire button under the Network Controls section. You can click this button to manually fire the network.
 
-![image.png](img/ECM/WorkingWithWidgets/www26.png)
+![image.png](../img/ECM/WorkingWithWidgets/www26.png)
 
-![image.png](img/ECM/WorkingWithWidgets/www27.png)
+![image.png](../img/ECM/WorkingWithWidgets/www27.png)
 
 ###Seeing the Results in Real Time
 After creating the widgets, apply user variables to those widgets and create a **Network Execute** button. You can immediately see the changes in the widgets as the data is changed. This also enables all associated parent/child widgets in the dashboard to immediately reflect the different values you assigned.
 
 1. Click the **Flip Widget** button in the widget title bar to view the back of the widget.
 
-![image.png](img/ECM/WorkingWithWidgets/www28.png)
+![image.png](../img/ECM/WorkingWithWidgets/www28.png)
 
 2. Use the slider bar to change the variable thresholds.
 3. Click on the Fire button to execute the network. The button will briefly change color and indicate Firing.
 4. Click the Flip Widget button in the widget title bar to view the front of the widget, showing the changes made to the data based on the new user variable values.
 
-![image.png](img/ECM/WorkingWithWidgets/www29.png)
+![image.png](../img/ECM/WorkingWithWidgets/www29.png)

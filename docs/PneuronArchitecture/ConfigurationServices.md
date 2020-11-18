@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 #Configuration WEB Service
 The neuron configuration service allows for the addition, deletion and modification of pneurons and aliases. All connections between neurons are also managed via this service.
 

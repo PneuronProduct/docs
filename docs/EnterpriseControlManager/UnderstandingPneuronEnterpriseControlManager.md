@@ -11,7 +11,7 @@ The ECM includes several key functional concepts:
 
 A general overview and layout of the ECM application is presented.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up1.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up1.png)
 
 Top Level Navigation provides access to the primary ECM functions.
 
@@ -30,7 +30,7 @@ The following graphics and tables explain the top navigation functions of Pneuro
 
 
 ##Actions Menu
-![image.png](img/ECM/UnderstandingPneuronECM/up2.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up2.png)
 
 | **Menu Name** | **Description** |
 |--|--|
@@ -44,9 +44,9 @@ The following graphics and tables explain the top navigation functions of Pneuro
 ###Using Common Properties
 The Common Properties feature allows the user to set attributes such as color, sizing, and other visual properties of all widgets on the current working tab.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up3.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up3.png)
 
-![image.png](img/ECM/UnderstandingPneuronECM/up4.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up4.png)
 
 | **Menu Name** | **Description** |
 |--|--|
@@ -57,11 +57,11 @@ The Common Properties feature allows the user to set attributes such as color, s
 
 To reorder tabs, you can use the green arrows (chevrons) at the top right corner of the Tab Management window.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up5.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up5.png)
 
 The **Copy tab** option in the **Actions** menu enables a user to select a dashboard, copy a tab with the widgets under it, and rename the tab as required.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up6.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up6.png)
 
 
 | **Menu Name** | **Description** |
@@ -85,7 +85,7 @@ Other Options in Actions Menu
 
 ##Import/Export Menu
 
-![image.png](img/ECM/UnderstandingPneuronECM/up7.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up7.png)
 
 
 | **Menu Name** | **Description** |
@@ -103,12 +103,12 @@ The image on the right shows the window after the Preview button has been clicke
 Click Print to print the preview
 Click Cancel to close the Print Preview window.
 
-![actions.png](img/ECM/UnderstandingPneuronECM/up8.png)
+![actions.png](../img/ECM/UnderstandingPneuronECM/up8.png)
 
 ##Display Menu
 The Display menu is next on the toolbar of the Pneuron ECM.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up9.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up9.png)
 
 
 | **Menu Name** | **Description** |
@@ -122,12 +122,12 @@ The Display menu is next on the toolbar of the Pneuron ECM.
 | **Animation** | When enabled, upon widget refresh, the data is displayed in a visually animated fashion. |
 
 ##Dashboard Menu
-![image.png](img/ECM/UnderstandingPneuronECM/up10.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up10.png)
 
 Here you can select a dashboard from a drop down menu.
 
 ##Other Main Navigation Features
-![image.png](img/ECM/UnderstandingPneuronECM/up11.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up11.png)
 
 | **Menu Name** | **Description** |
 |--|--|
@@ -142,42 +142,42 @@ Here you can select a dashboard from a drop down menu.
 
 The following illustration shows a Pneuron ECM dashboard that contains configured widgets based on the selections made in the widget and the queries configured through the ECM Report Builder.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up12.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up12.png)
 
 ##Widget Overview
 
 Widgets provide several functions for managing their display and accessing their data.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up13.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up13.png)
 
 Widgets have control buttons available on the title bar. Designers have the option to display or hide the control buttons on each widget. In the Dashlet properties for the widget, the **Show Buttons** option will toggle on or off the buttons on the widget on the title bar. This can also be managed for all widgets under **Actions** > **Common Properties**, Show buttons. See the figure on the next page for a description of each button.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up14.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up14.png)
 
 ####Export to Excel
 When the Excel button is selected, the data associated with the widget will be exported as an Excel spreadsheet, which can be viewed and/or saved.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up15.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up15.png)
 
 ####Export to PDF
 Clicking the PDF button will generate a PDF document showing an image of the current dashboard in its current state.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up16.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up16.png)
 
 ####Export to PowerPoint
 Clicking on the Save as PowerPoint button will export the selected widget to PowerPoint.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up17.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up17.png)
 
 ####Send mail
 Clicking the Send mail button opens a panel allowing the user to enter information and send an email directly from the ECM. This requires the user to have previously configured the Email Driver in the Pneuron Admin tool or permission to create and edit Mail Aliases from ECM.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up18.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up18.png)
 
 ####Add Note to Widget
 Clicking the Note button opens a window that allows the user to attach custom notes or instructions to the widget. These notes are viewable by opening the Note tool again. Add a new note by entering information into the bottom box and clicking the Save button.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up19.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up19.png)
 
 ####Refresh Widget
 The Refresh button refreshes the widget. If the underlying data behind the graph has changed, the visualization will immediately reflect the changes.
@@ -185,28 +185,28 @@ The Refresh button refreshes the widget. If the underlying data behind the graph
 ####Flip Widget Feature
 Clicking on the Flip button will flip the widget and expose configured parameters and/or controls that have been configured for the widget. Examples include parameters, network firing buttons and what-if controls.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up20.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up20.png)
 
 ##Dashlet Properties Panel
 The following illustration shows the dashlet property panel, which is located to the right of the dashboard. The dashlet properties panel allows the configuration of widgets by specifying their appearance attributes such as colors, sizing, titles, labels, and refresh rate.
 
 The options under the Widgets Properties Panel can be different for each widget type. However, the general structure of options and parameters is the same for all widgets.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up21.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up21.png)
 
 ##Table Widget Pagination
 Table widgets have a feature that allows large data sets to be paginated for performance. Pagination allows the designer to reduce or expand the visible number of rows per page returned from the query. If the number defined in the PageSize property in the Chart Properties Section is less than the total number of rows returned, the widget will automatically calculate the number of pages. By default, the PageSize property is set to 15.
 
 Using the Jump To button will take you directly to the page specified unless the page number specified is higher than what is available. In this case, an “Invalid Page Number” error will be displayed. The end user can also navigate using the arrows. Note that exporting a paginated table will only export the current visible page selected. See figures below.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up22.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up22.png)
 
-![image.png](img/ECM/UnderstandingPneuronECM/up23.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up23.png)
 
 ##Widgest Tabs and Configuration Settings
 The bottom of the widget properties panel contains tabs used for editing data sources, parent widgets, user variables, and networks for the selected widget.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up24.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up24.png)
 
 The following table describes each tab at the bottom of the widget properties panel. Not all tabs are available for all widgets (for example, the color tab is not available on the table widget since it does not have any colors to set).
 
@@ -224,11 +224,11 @@ The following table describes each tab at the bottom of the widget properties pa
 ##Dashlet Menu Properties
 Each widget has a menu accessible by right clicking in the Title area. Some of these items are the same as the buttons displayed when the Show Buttons option in the Chart Properties is selected. In this instance, there are a few more options such as Move Widget, Copy Widget, Copy/Apply Format and Common Properties.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up25.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up25.png)
 
 **Move Widget** allows a designer to move a widget to another Dashboard and Tab. If the widget has a Parent/Child relationship, the parent or child can be moved with it. Once the widget is moved, the widget will be removed from the current dashboard.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up26.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up26.png)
 
 **Copy Widget** allows the designer to make a copy of the widget. The copy process will also allow you to copy a parent/child relationship if one exists. Unlike the Move Widget, the copy leaves the original widget in place.
 
@@ -236,11 +236,11 @@ Each widget has a menu accessible by right clicking in the Title area. Some of t
 
 Once **Copy Format** has been selected, right click in the title of another widget and click **Format / Apply Format**.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up27.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up27.png)
 
 Clear Format allows the designer to clear the copied format from memory if the designer wants to copy another widget. If the format is applied to a widget, it is a manual process to undo the change or make further changes.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up28.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up28.png)
 
 The Widget Common Properties panel displays the common properties that have been applied to this widget. Changing an item here will not change it for all widgets, just the individual widget. For example, if a theme had been applied to this widget, the theme name would be listed. Changing the theme will change the theme for this one widget if it is done from this screen. Use **Common Properties** from the **Actions** menu to change the theme for all widgets.
 
@@ -249,4 +249,4 @@ The other options on the menu when right clicking in the Title section are the s
 ##Adjust Canvas
 The **Adjust Canvas** feature allows you to adjust the size of the main canvas working area.
 
-![image.png](img/ECM/UnderstandingPneuronECM/up29.png)
+![image.png](../img/ECM/UnderstandingPneuronECM/up29.png)

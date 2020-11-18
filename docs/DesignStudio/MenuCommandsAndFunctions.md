@@ -7,7 +7,7 @@ Pneurons are connected within a network and can even connect to other Pneuron ne
 
 This section reviews the menu commands and functions available at the Pneuron level. The Pneuron command menu is available by right-clicking on any Pneuron on the Canvas.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf1.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf1.png)
 
 
 | **Pneuron Actions** | Description |
@@ -38,12 +38,12 @@ This menu option allows the designer to reset the statistics for the Pneuron. St
 
 **Before/After**
 
-![actions.png](img/DS/MenuCommandsAndFunctions/mcf2.png)
+![actions.png](../img/DS/MenuCommandsAndFunctions/mcf2.png)
 
 ##Pneuron Notes
 Use this menu option to add notes to a Pneuron. Notes can be added, updated or deleted.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf3.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf3.png)
 
 ##Pneuron Properties
 Use this menu option to access the Properties configuration screen for a Pneuron. Each type of Pneuron has a unique Properties configuration interface. This document provides sample property configuration information for Query and Analytic Pneurons. Refer to the Pneuron Reference Guide for details on configuration for each type of Pneuron.
@@ -51,17 +51,17 @@ Use this menu option to access the Properties configuration screen for a Pneuron
 ##Pneuron Refresh Tags
 Data moves between connected Pneurons in a network via XML messages. This menu option allows designers to refresh the all the tags created or used by the Pneurons in a network. When this option is selected, the Pneuron server will refresh all tags and display the message below.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf4.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf4.png)
 
 ##Pneuron Generated Tags
 Data moves between connected Pneurons in a network via XML messages. This menu option allows designers to view the XML tags created by the selected Pneuron as shown in the sample below.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf5.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf5.png)
 
 ##Pneuron Incoming Tags
 Data moves between connected Pneurons in a network via XML messages. This menu option allows designers to view the XML tags received by the selected Pneuron as shown in the sample below.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf6.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf6.png)
 
 ##Pneuron Reset Statistics and Fire
 This menu option allows the designer to reset the statistics for the Pneuron and Fire the Network with a single click. See the Reset Statistics section above for an example of statistics available for Pneurons.
@@ -78,7 +78,7 @@ To fire a Pneuron network using the menu command:
 
 1. Right-click on the first Pneuron in the network and select Properties. You can also double-click the Pneuron to open the properties interface.
 
-    ![actions.png](img/DS/MenuCommandsAndFunctions/mcf7.png)
+    ![actions.png](../img/DS/MenuCommandsAndFunctions/mcf7.png)
 
 2. Click on the DBQueryInterval property.
 3. To STOP the network: Change the value to zero and click **Update**. To RESTART the network: Change the value to an appropriate time interval and click **Update**. The field DbQueryIntervalType determines the time period type.
@@ -102,11 +102,11 @@ To view debug output for a network/Project, you must:
 
 In order to set the debug properties for a project, select Configure Project Debug from the right-click menu. You can access the debug configuration module by right-clicking on a Project or on a Pneuron within a Project.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf8.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf8.png)
 
 This will display the **Configure Debug for <Project>** window:
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf9.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf9.png)
 
 The **Configure Debug Project** window enables a user to filter the data in each column by entering a few words of the required text in the textboxes or search boxes provided above each column and pressing Enter.
 
@@ -114,7 +114,7 @@ Click the **Clear Filter** icon to clear the text in these textboxes.
 
 The checkboxes column at the extreme left enables you to select/deselect the rows.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf10.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf10.png)
 
 
 | **Field Name**  | Description |
@@ -140,11 +140,11 @@ The checkboxes column at the extreme left enables you to select/deselect the row
 ###Using the Design Studio Debug Console
 To review the debug message output, launch the Debug Utility Console from the Actions menu by selecting the Debug command, or by clicking the Show Results button in the Configure Project Debug module.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf11.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf11.png)
 
 This menu command will launch the Debug window.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf12.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf12.png)
 
 | **Field Name**  | **Description** |
 |--|--|
@@ -172,7 +172,7 @@ Enter the required values in the Debug window:
 - **To Pneuron**
 - **Select Fields** (Select All Fields, or choose specific fields)
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf13.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf13.png)
 
 Enter values in the optional fields:
 
@@ -184,19 +184,19 @@ Enter values in the optional fields:
 
 Click the **Display Messages** button.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf14.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf14.png)
 
 Click one or more arrows to expand the contents of each message. The fields you have chosen in **Select Fields** above will be displayed as part of the message output.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf15.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf15.png)
 
 To add or remove fields from the debug message output, change the selected values in the Select Fields pane above, and click **Display Messages**. The message output will be redisplayed based on the new selected values.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf16.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf16.png)
 
 To view the debug message output in a table format, select the **Table View** tab.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf17.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf17.png)
 
 The message field values are now displayed in columns, and the field values per message are displayed in the table. The columns can be resized by selecting and dragging the column dividers in the **Table View** tab.
 
@@ -213,7 +213,7 @@ Pneuron categories are specific to the project; the category names cannot be tra
 The following illustrations show sample
 Pneuron categories when they are collapsed and expanded.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf18.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf18.png)
 
 ###Move Pneuron
 The **Move Pneuron** menu command allows you to move or change several components of one or many Pneurons:
@@ -228,30 +228,30 @@ The **Move Pneuron** menu command allows you to move or change several component
 
 1. Right-click on the Pneuron (or **CTRL**-click to select multiple Pneurons) that you want to move or rename and select **Move Pneurons**.
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf19.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf19.png)
 
 2. From the **Move Pneurons** dialog box, you may change the category, project, host, or rename the Pneuron. Additionally, you can create a new project or category through the interface.
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf20.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf20.png)
 
 3. Once your selections have been made, click **OK**.
 
 ##Pneuron Copy
 The **Copy** command allows designers to copy the selected Pneuron. Because Pneuron names must be unique, the user is presented with a dialog box that will allow the new Pneuron to be created with a new name. A copy of the selected Pneuron will be created in the current Project. Designers can also assign the copied Pneuron to another host, if desired.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf21.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf21.png)
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf22.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf22.png)
 
 A success message will be displayed when the **OK** button is clicked. The Pneuron copy will be shown on the Canvas.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf23.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf23.png)
 
 ##Pneuron Delete
 The **Delete** command allows designers to remove the selected Pneuron. Once selected, the user will be presented a confirmation dialog box to ensure the delete operation should proceed. Once a Pneuron has been deleted, it cannot be retrieved.
 Multiple Pneurons can be deleted at the same time by using **CTRL**-click to select multiple Pneurons and then clicking the Delete command.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf24.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf24.png)
 
 ##Using the Query Pneuron
 he Query Pneuron is used to retrieve data from a relational database so data manipulation operations can be performed on that data in subsequent Pneurons. The data retrieved by the Query Pneuron is sent as an XML message to another Pneuron based on how the project is configured.
@@ -260,7 +260,7 @@ For example, you can configure a Query Pneuron to retrieve account data and send
 
 1. Right-click on a new Query Pneuron and click **Properties**. You can also double-click the Pneuron to open the **Pneuron Properties** window. The **Pneuron Properties** window is displayed with default property names.
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf25.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf25.png)
 
 2. Click on the DbSource property name and select a data source.
 3. Select the Query property name and click on its associated Design icon to access the Query Builder and create a query for this Pneuron. Refer to the next section Using the Query Builder.
@@ -272,12 +272,12 @@ To access the Query Builder:
 1. Right-click the Query Pneuron and select Properties. You can also double-click the Pneuron to open the Pneuron Properties window.
 2. Click the Design icon next to the Instruction Block. The Query Builder application appears. List on the left shows data sourcesDrag the table out to the right to see list.
 
-    ![actions.png](img/DS/MenuCommandsAndFunctions/mcf26.png)
+    ![actions.png](../img/DS/MenuCommandsAndFunctions/mcf26.png)
 
 3. Decide which table(s) to use for the query and click and drag one or more tables to the blank area above the chart. The fields within the selected table(s) will appear in a separate chart.
 4. Select the fields that you want to retrieve from the table(s) by clicking in their respective check boxes. These fields will be used in the query and will appear in the chart below the design area.
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf27.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf27.png)
 
 5. Enter the appropriate values for the fields in the chart to define the query that will produce the desired output. Refer to the following table for column definitions.
 
@@ -304,14 +304,14 @@ Query Builder allows you to limit the number of rows returned by the query. This
 
 To limit the number of rows returned, select the Top checkbox and enter the number of data rows you want the query to return.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf28.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf28.png)
 
 ##Using The Analytic Pneuron
 The Analytic Pneuron is used to configure and compute complex analytical, mathematical and statistical algorithms within a Pneuron project based on the data retrieved by other Pneurons.
 
 Within a project, Query Pneurons retrieve the data to be used by the Analytic Pneuron. The retrieved data then passes to the Analytic Pneuron as an XML message. The Analytic Pneuron evaluates all messages and performs the calculations and processing of that data. The output of the Analytic Pneuron is a new message consisting of the original message plus the results of the calculations, appended as new tags.
 
-![actions.png](img/DS/MenuCommandsAndFunctions/mcf29.png)
+![actions.png](../img/DS/MenuCommandsAndFunctions/mcf29.png)
 
 To use the Analytic Pneuron, you can double-click on the Instruction Block and manually enter the variables, or use the Analytic Editor to configure calculations that are more complex.
 
@@ -329,7 +329,7 @@ To access the Analytic Editor:
 1. Right-click on the Analytic Pneuron and select Properties. You can also double-click the Pneuron to open the Properties window.
 2. Click the Design icon next to the Instruction Block. The Analytic Editor window appears.
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf30.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf30.png)
 
 To access the Formula Editor, click on the Diagram Editor tab at the top left corner, select a function icon in the design area, and click Edit Formula. Not all function icons connect to a Formula Editor. If there is no Edit Formula button present, then there is no associated Formula Editor for that function icon.
 
@@ -346,12 +346,12 @@ The following table explains the Diagram Editor Property fields that appear on t
 
 | **Diagram Editor Functions** | Diagram Editor Property Fields | Diagram Editor Property Definitions |
 |--|--|--|
-| **Declare** | ![image.png](img/DS/MenuCommandsAndFunctions/declare.png) | Enables you to define variables to use throughout the instruction code. In the Variable Name field, enter the name you want to use for a calculation variable. Select the Variable Type (such as string, integer, float, date, or long). Select the Store variable in result? checkbox if the results of this calculation are to be stored in the outgoing XML message. Click Save Properties. Your selections appear in the design area. |
-| **Set** | ![image.png](img/DS/MenuCommandsAndFunctions/set.png) | Enables you to create a formula using the variable names created in the Declare function. In the Variable Name field, select the variable name to associate with this formula set. In the Formula field, enter the appropriate formula to calculate the result. Click Edit Formula (if needed) to access the Formula Editor. Refer |
-| **Call Pneuron** | ![image.png](img/DS/MenuCommandsAndFunctions/callpn.png) | Enables you to make calls to an Adapter or Query Pneuron for processing data. In the Reference/Variable Name field, enter the name to assign to the variable for this call. Enter the Project Name that contains the Pneuron to call. Enter the Pneuron Name that is the source of the data. This should be an Adapter or Query Pneuron. By selecting the Direct Reply checkbox, the call will not wait on the called network to process. |
-| **IF** | ![image.png](img/DS/MenuCommandsAndFunctions/if.png) | Enables you to create a true or false condition within the formula. This is typically connected to a Set function. Enter the true or false Condition to apply to this function. Click Edit Formula (if needed) to access the Formula Editor. Refer to the section Using the Formula Editor. |
-| **While** | ![image.png](img/DS/MenuCommandsAndFunctions/while.png) | Enables you to configure a looped action until the formula is satisfied. Enter the Condition that is to be applied to this function. Click Edit Formula (if needed) to access the Formula Editor. Refer to the section Using the Formula Editor. Select an option from the Data Feed Name drop-down, associated with this function. Select an option for handling the error in the Error Handler drop-down. |
-| **Evaluate** | ![image.png](img/DS/MenuCommandsAndFunctions/evaluate.png) | Enables you to configure specific actions when the formula meets the specified criteria. It is similar to a branch operation that can move across multiple results. In the Variable Name field, enter the name of this function. In the Formula field, enter the appropriate formula to calculate the result. Click Edit Formula (if needed) to access the Formula Editor. Refer to the section Using the Formula Editor. |
+| **Declare** | ![image.png](../img/DS/MenuCommandsAndFunctions/declare.png) | Enables you to define variables to use throughout the instruction code. In the Variable Name field, enter the name you want to use for a calculation variable. Select the Variable Type (such as string, integer, float, date, or long). Select the Store variable in result? checkbox if the results of this calculation are to be stored in the outgoing XML message. Click Save Properties. Your selections appear in the design area. |
+| **Set** | ![image.png](../img/DS/MenuCommandsAndFunctions/set.png) | Enables you to create a formula using the variable names created in the Declare function. In the Variable Name field, select the variable name to associate with this formula set. In the Formula field, enter the appropriate formula to calculate the result. Click Edit Formula (if needed) to access the Formula Editor. Refer |
+| **Call Pneuron** | ![image.png](../img/DS/MenuCommandsAndFunctions/callpn.png) | Enables you to make calls to an Adapter or Query Pneuron for processing data. In the Reference/Variable Name field, enter the name to assign to the variable for this call. Enter the Project Name that contains the Pneuron to call. Enter the Pneuron Name that is the source of the data. This should be an Adapter or Query Pneuron. By selecting the Direct Reply checkbox, the call will not wait on the called network to process. |
+| **IF** | ![image.png](../img/DS/MenuCommandsAndFunctions/if.png) | Enables you to create a true or false condition within the formula. This is typically connected to a Set function. Enter the true or false Condition to apply to this function. Click Edit Formula (if needed) to access the Formula Editor. Refer to the section Using the Formula Editor. |
+| **While** | ![image.png](../img/DS/MenuCommandsAndFunctions/while.png) | Enables you to configure a looped action until the formula is satisfied. Enter the Condition that is to be applied to this function. Click Edit Formula (if needed) to access the Formula Editor. Refer to the section Using the Formula Editor. Select an option from the Data Feed Name drop-down, associated with this function. Select an option for handling the error in the Error Handler drop-down. |
+| **Evaluate** | ![image.png](../img/DS/MenuCommandsAndFunctions/evaluate.png) | Enables you to configure specific actions when the formula meets the specified criteria. It is similar to a branch operation that can move across multiple results. In the Variable Name field, enter the name of this function. In the Formula field, enter the appropriate formula to calculate the result. Click Edit Formula (if needed) to access the Formula Editor. Refer to the section Using the Formula Editor. |
 | **Fire** | There are no configuration fields associated with this function. | Fires a message with the computed analytics at the point in the function tree where the ‘Fire’ function has been placed. Click and drag the Fire function to a branch (arrow) within the function tree to send a new message at that particular point. |
 
 ###Using the Formula Editor
@@ -361,7 +361,7 @@ To use the Formula Editor:
 
 1. While in the Diagram Editor, select a function box and click the Edit Formula button on the right side panel of the screen. The Formula Editor window appears, with four tabs on the right: Runtime, Methods, Generic Methods and Basic Methods.
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf31.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf31.png)
 
 2. Create or edit the formulas as appropriate. Click Use to choose properties and methods from the Runtime, Methods, Generic Methods and Basic Methods tabs. Refer to the instructions below for each tab.
 3. Click Done and then click Save Properties to save your changes.
@@ -370,11 +370,11 @@ To use the Formula Editor:
 1. Create or edit the formulas as appropriate. Click Use to choose properties and methods from the Runtime, Methods, Generic Methods and Basic Methods tabs. Refer to the instructions below for each tab.
 2. Click Done and then click Save Properties to save your changes.
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf32.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf32.png)
 
 The Methods tab within the Formula Editor enables you to select methods to use in your formula. Simply select a method and click Use. The method appears in the code area on the left.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf33.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf33.png)
 
 ####Formula Editor - Generic Methods Tab
 
@@ -386,10 +386,10 @@ You can choose among three different libraries for selecting methods within the 
 - Apache Math Library
 - Matching Library
 
-    ![image.png](img/DS/MenuCommandsAndFunctions/mcf34.png)
+    ![image.png](../img/DS/MenuCommandsAndFunctions/mcf34.png)
 
 ####Formula Editor - Basic Methods Tab
 
 The Basic Methods tab is used to choose a SQL function (Mathematical, String, Date) and edit it as required.
 
-![image.png](img/DS/MenuCommandsAndFunctions/mcf35.png)
+![image.png](../img/DS/MenuCommandsAndFunctions/mcf35.png)

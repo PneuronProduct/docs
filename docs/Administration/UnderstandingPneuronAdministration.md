@@ -5,7 +5,7 @@ This section describes the functions within Pneuron Administration.
 ###Top Navigation Functions
 The following graphics and tables explain the top navigation functions of Pneuron Administration.
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa1.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa1.png)
 
 | **Menu Name** | **Description** |
 |--|--|
@@ -18,7 +18,7 @@ The following graphics and tables explain the top navigation functions of Pneuro
 | **License Management** | Allows administrators to view active logins to Pneuron modules and remove logins if needed. |
 | **Lock Management** | Allows administrators to view projects which are open and locked for edit, and to remove locks if needed. |
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa2.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa2.png)
 
 | **Menu Name** | **Description** |
 |--|--|
@@ -34,7 +34,7 @@ The following graphics and tables explain the top navigation functions of Pneuro
 | **Data Format Management** | Allows administrators to add, edit and delete data formats used in table widgets within Pneuron Enterprise Manager Dashboards. |
 | **Global Panel Management** | Allows the admin user to create global panels in Design Studio that are available to all users. |
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa3.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa3.png)
 
 
 | **Menu Name** | **Description** |
@@ -48,16 +48,16 @@ The following graphics and tables explain the top navigation functions of Pneuro
 ###Search an Filter
 On most screens within Pneuron Administration, an **Advanced filtering** button enables you to search for a particular term within the current screen.
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa4.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa4.png)
 
 When the **Advanced filtering** button is clicked, the screen appears as below. Enter the search details and click **Filter**. To stop the filtering, click **Hide advanced filtering**.
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa5.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa5.png)
 
 ###Sorting Window Contents
 Administrators can sort the contents within a window in ascending or descending order, by name or any of the column headings available in the current window. They can also select the columns to view, freeze the window at the currently selected list item, and configure the sort order.
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa6.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa6.png)
 
 Right click the small arrow withing a column to display the **Sort** menu.
 
@@ -73,20 +73,20 @@ Right click the small arrow withing a column to display the **Sort** menu.
 ###Resizing Tables
 Administrators can resize the columns by moving the mouse over the column label. A double-ended white arrow will appear. Dragging the arrow to the left will decrease the width of the column and dragging it to the right will increase the width of the column.
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa7.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa7.png)
 
 Mouse over column separator and drag to the left to reduce column width and right to increase column width.
 
 A column can be moved within a table by dragging it to the desired location in the row of column headers.
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa8.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa8.png)
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa9.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa9.png)
 
 ###Configuring the sort feature
 Administrators can configure complex sort orders to visualize the contents displayed in the current window. For example, administrators can sort all names in the current window first by name in ascending order, and then by value in descending order. This option is available when a user clicks **Configure Sort** in the **Sort menu**.
 
-![image.png](img/Admin/UnderstandingPneuronAdministration/upa10.png)
+![image.png](../img/Admin/UnderstandingPneuronAdministration/upa10.png)
 
 Administrators can add or delete sort levels by clicking the respective **Add Level** and **Delete Level** buttons. Users can use the **Copy Level** button to copy a sorting property to a new line. Users can also use the up and down arrows next to the **Copy Level** button to change the order in which the window list is sorted.
 After completing the entries in the sort window, users have to click on the **Apply** button to apply the sorting configurations.

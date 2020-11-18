@@ -21,7 +21,7 @@ To create a project:
 
 2. Enter the name of the new project and click Create. The new name of the Project appears on the canvas. Now you can start configuring the associated data sources for this project. See the Alias Management section to view how to create data sources and other alias types for use within Pneuron Networks.
 
-![image.png](img/DS/GeneralUsage/gu1.png)
+![image.png](../img/DS/GeneralUsage/gu1.png)
 
 ##Creating an Pneuron
 After you configure your data sources for your project, you can start assigning and configuring Pneurons to that project to build a network.
@@ -30,9 +30,9 @@ To create a Pneuron:
 
 1. From the Pneuron palette, click and drag the Pneuron onto the canvas. The **Pneuron Set Name** dialog box appears.
 
-    ![image.png](img/DS/GeneralUsage/gu2.png)
+    ![image.png](../img/DS/GeneralUsage/gu2.png)
 
-    ![image.png](img/DS/GeneralUsage/gu3.png)
+    ![image.png](../img/DS/GeneralUsage/gu3.png)
 
 2. Enter the credentials for the following fields in the table below.
 
@@ -56,13 +56,13 @@ To configure the Pneuron properties:
 
 1. Right-click on the Pneuron and click **Properties**. You can also double-click the Pneuron to open the properties interface. The Pneuron Properties screen appears with default property names.
 
-    ![image.png](img/DS/GeneralUsage/gu4.png)
+    ![image.png](../img/DS/GeneralUsage/gu4.png)
 
     - Click on a property to change the values within that property. Then click **Update**.
 
 2. Click on a property name within the list and configure the value for that property.
 
-    ![image.png](img/DS/GeneralUsage/gu5.png)
+    ![image.png](../img/DS/GeneralUsage/gu5.png)
 
 3. Enter the information in the following fields.
 
@@ -88,11 +88,11 @@ To delete a Pneuron:
 
 1. Right-click the Pneuron you want to delete and click Delete.
 
-    ![image.png](img/DS/GeneralUsage/gu6.png)
+    ![image.png](../img/DS/GeneralUsage/gu6.png)
 
 2. Click OK to confirm the deletion.
 
-    ![image.png](img/DS/GeneralUsage/gu7.png)
+    ![image.png](../img/DS/GeneralUsage/gu7.png)
 
 ##Connecting Pneurons
 
@@ -103,21 +103,21 @@ To connect Pneurons:
 1. Click the source Pneuron.
 2. Press and hold the CTRL key and right-click on the second Pneuron you want to connect. From the right-click menu, click Connect > Connect.
 
-    ![image.png](img/DS/GeneralUsage/gu8.png)
+    ![image.png](../img/DS/GeneralUsage/gu8.png)
 
     - Alternatively, you can click Actions > Show Connection Tool.
 
-    ![image.png](img/DS/GeneralUsage/gu9.png)
+    ![image.png](../img/DS/GeneralUsage/gu9.png)
 
     - The Connection Tool window appears.
 
-    ![image.png](img/DS/GeneralUsage/gu10.png)
+    ![image.png](../img/DS/GeneralUsage/gu10.png)
 
     - Select the required option. Press and hold the **CTRL** key and right-click on the second Pneuron you want to connect.
 
     - There is now an arrow between the two Pneurons, with the arrow pointing to the destination (second) Pneuron.
 
-    ![image.png](img/DS/GeneralUsage/gu11.png)
+    ![image.png](../img/DS/GeneralUsage/gu11.png)
 
 3. When you have additional Pneurons in the network, repeat Steps 1 and 2 for the remainder of the Pneurons you want to connect.
 
@@ -128,15 +128,15 @@ To disconnect Pneurons:
 1. Click on the source Pneuron.
 2. Right-click on the second Pneuron you want to disconnect and click Disconnect.
 
-![image.png](img/DS/GeneralUsage/gu12.png)
+![image.png](../img/DS/GeneralUsage/gu12.png)
 
 The arrow between the two Pneurons is deleted.
 
-![image.png](img/DS/GeneralUsage/gu13.png)
+![image.png](../img/DS/GeneralUsage/gu13.png)
 
 Alternatively, use the Disconnect option (as explained above) from the Connection Tool window.
 
-![image.png](img/DS/GeneralUsage/gu14.png)
+![image.png](../img/DS/GeneralUsage/gu14.png)
 
 ##Connecting Pneurons Via If/Else Functionality
 
@@ -147,11 +147,11 @@ For example, if the result of a calculation from a Compare Pneuron is above a gi
 1. Click the **Compare** Pneuron.
 2. Right-click on the subsequent Pneuron and click **Connect** > **Connect Else**
 
-    ![image.png](img/DS/GeneralUsage/gu15.png)
+    ![image.png](../img/DS/GeneralUsage/gu15.png)
 
 3. The purple arrow between the two Pneurons indicates an ‘Else’ branch connection.
 
-    ![image.png](img/DS/GeneralUsage/gu15.png)
+    ![image.png](../img/DS/GeneralUsage/gu15.png)
 
 For additional information using Compare Pneuron, refer to the Pneuron Reference Guide.
 
@@ -171,7 +171,7 @@ To align two or more Pneurons on the canvas:
     - Align Middle
     - Align Bottom
 
-![image.png](img/DS/GeneralUsage/gu16.png)
+![image.png](../img/DS/GeneralUsage/gu16.png)
 
 
 ##Project Icons
@@ -184,16 +184,16 @@ To import a network:
 
 1. Click the **Load Project** button.
 
-    ![image.png](img/DS/GeneralUsage/gu17.png)
+    ![image.png](../img/DS/GeneralUsage/gu17.png)
 
 2. Click **Browse** to select an XML file and click **Open** to populate the field.
 
-    ![image.png](img/DS/GeneralUsage/gu18.png)
+    ![image.png](../img/DS/GeneralUsage/gu18.png)
 
 3. Click **Upload**.
 4. You will be presented a host select interface:
 
-    ![image.png](img/DS/GeneralUsage/gu19.png)
+    ![image.png](../img/DS/GeneralUsage/gu19.png)
 
     There are four options for setting the host for the imported Pneurons within the Project:
 
