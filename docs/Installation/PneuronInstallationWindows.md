@@ -329,7 +329,7 @@ Updating Pneuron to the latest version is a similar process to the initial insta
 
    ![image.png](../img/Installation/Windows/w16.png)
 
-   If the screen does not appear, it may be because the file association for .jar files is not set to Java. To modify the setting, navigate to _Control Panel->Default Programs->Associate a file type or protocol with a program_. Scroll to the .jar entry. If the Current Default is not associated with Java, use the _Change program…_ button to modify.
+   > If the screen does not appear, it may be because the file association for .jar files is not set to Java. To modify the setting, navigate to _Control Panel->Default Programs->Associate a file type or protocol with a program_. Scroll to the .jar entry. If the Current Default is not associated with Java, use the _Change program…_ button to modify.
 
    ![image.png](../img/Installation/Windows/w17.png)
 
