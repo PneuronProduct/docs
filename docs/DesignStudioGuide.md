@@ -31,13 +31,13 @@ Pneurons are mini-applications that are configured to perform multiple functions
 
 The following illustration depicts the hierarchy of projects, networks, categories, and Pneurons within Pneuron Design Studio.
 
-![image.png](../img/DS/DSGuide/dsg1.png)
+![image.png](img/DS/DSGuide/dsg1.png)
 
 
 ##Example Pneuron Network
 The following illustration shows a sample Pneuron network expanded to display Query, Analytic, Compare, Print and Variable Pneurons.
 
-![image.png](../img/DS/DSGuide/dsg2.png)
+![image.png](img/DS/DSGuide/dsg2.png)
 
 ##Pneuron Solution Process
 The following steps describe the process of using the Pneuron Applications Suite to solve business problems.

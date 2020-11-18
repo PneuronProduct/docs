@@ -1,4 +1,3 @@
-[[_TOC_]]
 #Section 1 – Pneuron Installation Introduction
 
 This manual is intended as a reference guide for the correct installation of the Pneuron Application Suite, version 2.0 and the required third-party components. The instructions assume the person performing the installation is experienced in the administration of databases and other server-side applications.

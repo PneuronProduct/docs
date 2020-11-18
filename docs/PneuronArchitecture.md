@@ -4,10 +4,10 @@
 In simplest terms, the Pneuron server is a container of Pneurons, providing the needed infrastructure which allows pneurons to function. The Pneuron server is implemented as a Java 6 standalone program which is able to run in multiple of today's server operating systems. It is expected that multiple Pneuron servers will be deployed in a large scale or distributed environment. To support this any given Pneuron server can contain large numbers of Pneurons and communicate with remote Pneuron servers seamlessly.
 
 #Overview of Solution Stack
-![image.png](../img/Architecture/arch1.png)
+![image.png](img/Architecture/arch1.png)
 
 #System Architecture
-![image.png](../img/Architecture/arch2.png)
+![image.png](img/Architecture/arch2.png)
 
 The Pneuron platform utilizes **Rich Internet Architecture (RIA)** and contains three layers that interact with the adjacent layer to support the function of the Pneuron applications. These layers are:
 - **Distributed Java API Service Layer** The “Distributed Java API Service layer” handles all communication within the Pneuron applications, such as web services requests, dispatcher sending information to a worker node, communication between Pneurons, and more. The Distributed Java API Service layer interfaces with the Pneuron applications and Data Access layer.
@@ -17,7 +17,7 @@ The Pneuron platform utilizes **Rich Internet Architecture (RIA)** and contains 
 #Reference Architecture
 Business as service” solution focused on agility, real-time process distribution, low intrusion, and light footprint, all while respecting enterprise standards in platform utilization and security compliance.
 
-![image.png](../img/Architecture/arch3.png)
+![image.png](img/Architecture/arch3.png)
 
 #Deployment Architecture
 Distributed low footprint overlay processing across target systems utilizing internal cloud, network and current legacy technology, databases and processing capacity. 
@@ -26,7 +26,7 @@ Distributed low footprint overlay processing across target systems utilizing int
 - Agent: Direct on targeted systems with remote instances encapsulated in a JVM.  
 - Agentless: Remote and access systems using TCP/IP, HTTP, JDBC and API access
 
-![image.png](../img/Architecture/arch4.png)
+![image.png](img/Architecture/arch4.png)
 
 #Scalability Architecture
 Fully leveraged vertical and horizontal infrastructure scalability, combined with a patent-pending deployment mechanism that implements instruction-level parallel pipelines across multiple self managing nodes – all optimized for real time, high impact business value. 

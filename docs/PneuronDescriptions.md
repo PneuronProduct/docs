@@ -16,11 +16,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![adapter.png](../img/DS/PneuronDescriptions/adapter.png) | Data Interaction | Caches large data sets for processing with one operation to avoid repeated query demand on the underlying relational database. |
+| ![adapter.png](img/DS/PneuronDescriptions/adapter.png) | Data Interaction | Caches large data sets for processing with one operation to avoid repeated query demand on the underlying relational database. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/adapterconf.png)
+![image.png](img/DS/PneuronDescriptions/adapterconf.png)
 
 **Cache Type**
 
@@ -79,11 +79,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![analytic.png](../img/DS/PneuronDescriptions/analytics.png) | Analytics | Executes complex analytical, mathematical and statistical algorithms in the Pneuron network in real time using the data extracted from an incoming XML message. |
+| ![analytic.png](img/DS/PneuronDescriptions/analytics.png) | Analytics | Executes complex analytical, mathematical and statistical algorithms in the Pneuron network in real time using the data extracted from an incoming XML message. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/analyticsconf.png)
+![image.png](img/DS/PneuronDescriptions/analyticsconf.png)
 
 **Enable Notification Events**
 
@@ -101,11 +101,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![case.png](../img/DS/PneuronDescriptions/case.png) | Analytics | Create multiple message routing paths based on defined conditions within the XML data in messages. |
+| ![case.png](img/DS/PneuronDescriptions/case.png) | Analytics | Create multiple message routing paths based on defined conditions within the XML data in messages. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/caseconf.png)
+![image.png](img/DS/PneuronDescriptions/caseconf.png)
 
 **Enable Notification Events**
 
@@ -123,11 +123,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![checktransactioncompletion.png](../img/DS/PneuronDescriptions/check.png) | Message | Checks to determine if messages marked as transactions by the Start Transaction Pneuron have been processed. |
+| ![checktransactioncompletion.png](img/DS/PneuronDescriptions/check.png) | Message | Checks to determine if messages marked as transactions by the Start Transaction Pneuron have been processed. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/checkconf.png)
+![image.png](img/DS/PneuronDescriptions/checkconf.png)
 
 **Enable Notification Events**
 
@@ -153,11 +153,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![compare.png](../img/DS/PneuronDescriptions/compare.png) | Analytics | Used to create two alternate paths within a Pneuron network by configuring an if/else statement. |
+| ![compare.png](img/DS/PneuronDescriptions/compare.png) | Analytics | Used to create two alternate paths within a Pneuron network by configuring an if/else statement. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/compareconf.png)
+![image.png](img/DS/PneuronDescriptions/compareconf.png)
 
 **Enable Notification Events**
 
@@ -176,7 +176,7 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![custom.png](../img/DS/PneuronDescriptions/custom.png) | All | Enables experienced developers to create new Pneuron types by placing custom logic within a standard Pneuron shell that maintains interoperability with all other Pneurons. |
+| ![custom.png](img/DS/PneuronDescriptions/custom.png) | All | Enables experienced developers to create new Pneuron types by placing custom logic within a standard Pneuron shell that maintains interoperability with all other Pneurons. |
 
 ___
 
@@ -184,11 +184,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![data.png](../img/DS/PneuronDescriptions/datatype.png) | Data Interaction | Casts incoming XML fields to a specified data type. |
+| ![data.png](img/DS/PneuronDescriptions/datatype.png) | Data Interaction | Casts incoming XML fields to a specified data type. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/datatypeconf.png)
+![image.png](img/DS/PneuronDescriptions/datatypeconf.png)
 
 **Data conversion Table**
 
@@ -215,11 +215,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![dbmigration.png](../img/DS/PneuronDescriptions/dbstream.png) | Data Interaction | Takes data, saves it to a file, and then stores the file reference in a database in a specified data type. |
+| ![dbmigration.png](img/DS/PneuronDescriptions/dbstream.png) | Data Interaction | Takes data, saves it to a file, and then stores the file reference in a database in a specified data type. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/dbstreamconf.png)
+![image.png](img/DS/PneuronDescriptions/dbstreamconf.png)
 
 **DB Source Alias**
 
@@ -246,7 +246,7 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![document.png](../img/DS/PneuronDescriptions/document.png) | Data Interaction | Indexes documents and retrieves the file name containing a specific search string.|
+| ![document.png](img/DS/PneuronDescriptions/document.png) | Data Interaction | Indexes documents and retrieves the file name containing a specific search string.|
 
 ___
 
@@ -254,11 +254,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![ediparser.png](../img/DS/PneuronDescriptions/ediparser.png) | Data Interaction | Enables you to convert EDI or HL7 messages to XML.|
+| ![ediparser.png](img/DS/PneuronDescriptions/ediparser.png) | Data Interaction | Enables you to convert EDI or HL7 messages to XML.|
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/ediparserconf.png)
+![image.png](img/DS/PneuronDescriptions/ediparserconf.png)
 
 **EnableNotificatinEvents**
 
@@ -285,11 +285,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![JMSlistener.png](../img/DS/PneuronDescriptions/ehlistener.png) | Messaging | Provides the ability receive messages from an Azure Event Hub. |
+| ![JMSlistener.png](img/DS/PneuronDescriptions/ehlistener.png) | Messaging | Provides the ability receive messages from an Azure Event Hub. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/ehlistenerconf.png)
+![image.png](img/DS/PneuronDescriptions/ehlistenerconf.png)
 
 **Alias**
 
@@ -316,11 +316,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![JMSpublisher.png](../img/DS/PneuronDescriptions/ehpublisher.png) | Messaging | Provides the ability to place a message onto an Azure Event Hub . |
+| ![JMSpublisher.png](img/DS/PneuronDescriptions/ehpublisher.png) | Messaging | Provides the ability to place a message onto an Azure Event Hub . |
 
 ## Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/ehpublisherconf.png)
+![image.png](img/DS/PneuronDescriptions/ehpublisherconf.png)
 
 **Alias**
 
@@ -347,11 +347,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![file.png](../img/DS/PneuronDescriptions/file.png) | Data Interaction | Used to parse a file (JSON, XML, CSV, Excel, Unstructured) and retrieve specific attributes for further processing.|
+| ![file.png](img/DS/PneuronDescriptions/file.png) | Data Interaction | Used to parse a file (JSON, XML, CSV, Excel, Unstructured) and retrieve specific attributes for further processing.|
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/fileconf.png)
+![image.png](img/DS/PneuronDescriptions/fileconf.png)
 
 **Enable Notification Event**
 
@@ -444,11 +444,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![fileaction.png](../img/DS/PneuronDescriptions/fileaction.png) | Data Interaction | Used to manage directory, file data and structure. |
+| ![fileaction.png](img/DS/PneuronDescriptions/fileaction.png) | Data Interaction | Used to manage directory, file data and structure. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/fileactionconf.png)
+![image.png](img/DS/PneuronDescriptions/fileactionconf.png)
 
 **Action Type**
 
@@ -525,11 +525,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![filewriter.png](../img/DS/PneuronDescriptions/filewriter.png) | Data Interaction | Used to output specific attributes to a file for viewing or for use by external systems. |
+| ![filewriter.png](img/DS/PneuronDescriptions/filewriter.png) | Data Interaction | Used to output specific attributes to a file for viewing or for use by external systems. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/filewriterconf.png)
+![image.png](img/DS/PneuronDescriptions/filewriterconf.png)
 
 **Enable Notification Events**
 
@@ -624,11 +624,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![filter.png](../img/DS/PneuronDescriptions/filter.png) | Data Interaction | Allows the filtering of fields from XML messages and passes only the selected fields forward in the network. |
+| ![filter.png](img/DS/PneuronDescriptions/filter.png) | Data Interaction | Allows the filtering of fields from XML messages and passes only the selected fields forward in the network. |
 
 ##Pneuron Configiration
 
-![image.png](../img/DS/PneuronDescriptions/filterconf.png)
+![image.png](img/DS/PneuronDescriptions/filterconf.png)
 
 **Enable Notification Events**
 
@@ -647,11 +647,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![ftp.png](../img/DS/PneuronDescriptions/ftp.png) | Data Interaction, Output | Allows interaction with an FTP server to retrieve or store information. |
+| ![ftp.png](img/DS/PneuronDescriptions/ftp.png) | Data Interaction, Output | Allows interaction with an FTP server to retrieve or store information. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/ftpconf.png)
+![image.png](img/DS/PneuronDescriptions/ftpconf.png)
 
 **Check Interval**
 
@@ -716,11 +716,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![hadoopfilereader.png](../img/DS/PneuronDescriptions/hadoopaction.png) | Data Interaction | Perform a variety of actions on files in the Hadoop Distributed File System (HDFS).|
+| ![hadoopfilereader.png](img/DS/PneuronDescriptions/hadoopaction.png) | Data Interaction | Perform a variety of actions on files in the Hadoop Distributed File System (HDFS).|
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/hadoopactionconf.png)
+![image.png](img/DS/PneuronDescriptions/hadoopactionconf.png)
 
 **Action Type**
 
@@ -759,11 +759,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![hadoopfilereader.png](../img/DS/PneuronDescriptions/hadoopreader.png) | Data Interaction | Read files from a Hadoop Distributed File System (HDFS). |
+| ![hadoopfilereader.png](img/DS/PneuronDescriptions/hadoopreader.png) | Data Interaction | Read files from a Hadoop Distributed File System (HDFS). |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/hadoopreaderconf.png)
+![image.png](img/DS/PneuronDescriptions/hadoopreaderconf.png)
 
 **Add GUID Number**
 
@@ -798,11 +798,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![hadoopfilewriter.png](../img/DS/PneuronDescriptions/hadoopwriter.png) | Data Interaction | Write files to a Hadoop Distributed File System (HDFS). |
+| ![hadoopfilewriter.png](img/DS/PneuronDescriptions/hadoopwriter.png) | Data Interaction | Write files to a Hadoop Distributed File System (HDFS). |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/hadoopwriterconf.png)
+![image.png](img/DS/PneuronDescriptions/hadoopwriterconf.png)
 
 **Delete Files**
 
@@ -837,11 +837,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![httpget.png](../img/DS/PneuronDescriptions/http.png) | Data Interaction | Retrieves an HTTP response as a file. |
+| ![httpget.png](img/DS/PneuronDescriptions/http.png) | Data Interaction | Retrieves an HTTP response as a file. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/httpconf.png)
+![image.png](img/DS/PneuronDescriptions/httpconf.png)
 
 **Parameters and Headers Box**
 
@@ -876,11 +876,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![http.png](../img/DS/PneuronDescriptions/httpproxy.png) | Data Interaction | Works as an HTTP Proxy which enables the capture of individual HTTP requests. Each request is sent in a message with the request details. |
+| ![http.png](img/DS/PneuronDescriptions/httpproxy.png) | Data Interaction | Works as an HTTP Proxy which enables the capture of individual HTTP requests. Each request is sent in a message with the request details. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/httpproxyconf.png)
+![image.png](img/DS/PneuronDescriptions/httpproxyconf.png)
 
 **Enable Notification Events**
 
@@ -899,11 +899,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![hud.png](../img/DS/PneuronDescriptions/hud.png) | Output | Heads Up Display. Allows the display an external pop-up message that provides immediate feedback on a function within a network. |
+| ![hud.png](img/DS/PneuronDescriptions/hud.png) | Output | Heads Up Display. Allows the display an external pop-up message that provides immediate feedback on a function within a network. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/hudconf.png)
+![image.png](img/DS/PneuronDescriptions/hudconf.png)
 
 **Enable Notification Events**
 
@@ -918,11 +918,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![JMSlistener.png](../img/DS/PneuronDescriptions/jmslistener.png) | Messaging | Provides the ability to listen to a JMS queue. |
+| ![JMSlistener.png](img/DS/PneuronDescriptions/jmslistener.png) | Messaging | Provides the ability to listen to a JMS queue. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/jmslistenerconf.png)
+![image.png](img/DS/PneuronDescriptions/jmslistenerconf.png)
 
 **Enable Notification Events:**
 Option for enabling notification events. `TRUE` or `FALSE`.
@@ -948,11 +948,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![JMSpublisher.png](../img/DS/PneuronDescriptions/jmspublisher.png) | Messaging | Provides the ability to place an XML message onto a JMS queue. |
+| ![JMSpublisher.png](img/DS/PneuronDescriptions/jmspublisher.png) | Messaging | Provides the ability to place an XML message onto a JMS queue. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/jmspublisherconf.png)
+![image.png](img/DS/PneuronDescriptions/jmspublisherconf.png)
 
 **Enable Notification Events**
 
@@ -979,11 +979,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![kafkalistener.png](../img/DS/PneuronDescriptions/kafkalistener.png) | Messaging | Enables you to read from a Kafka topic. |
+| ![kafkalistener.png](img/DS/PneuronDescriptions/kafkalistener.png) | Messaging | Enables you to read from a Kafka topic. |
 
 ##Pneuron Configuration
 
-![kafkalistener.png](../img/DS/PneuronDescriptions/kafkalistenerconf.png)
+![kafkalistener.png](img/DS/PneuronDescriptions/kafkalistenerconf.png)
 
 **Alias**
 
@@ -999,11 +999,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![kafkapublisher.png](../img/DS/PneuronDescriptions/kafkapublisher.png) | Messaging | Enables you to write to a Kafka topic. |
+| ![kafkapublisher.png](img/DS/PneuronDescriptions/kafkapublisher.png) | Messaging | Enables you to write to a Kafka topic. |
 
 ##Pneuron Configuration
 
-![kafkapublisher.png](../img/DS/PneuronDescriptions/kafkapublisherconf.png)
+![kafkapublisher.png](img/DS/PneuronDescriptions/kafkapublisherconf.png)
 
 **Alias**
 
@@ -1018,11 +1018,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![mail.png](../img/DS/PneuronDescriptions/mail.png) | Output | Sends e-mail. Requires the user to provide an SMTP server and login information. |
+| ![mail.png](img/DS/PneuronDescriptions/mail.png) | Output | Sends e-mail. Requires the user to provide an SMTP server and login information. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/mailconf.png)
+![image.png](img/DS/PneuronDescriptions/mailconf.png)
 
 **From**
 
@@ -1065,11 +1065,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![mailreader.png](../img/DS/PneuronDescriptions/mailreader.png) | Output | Used to connect to the mail server, establish recipients and senders, and get mail content. |
+| ![mailreader.png](img/DS/PneuronDescriptions/mailreader.png) | Output | Used to connect to the mail server, establish recipients and senders, and get mail content. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/mailreaderconf.png)
+![image.png](img/DS/PneuronDescriptions/mailreaderconf.png)
 
 **Attachment Alias**
 
@@ -1136,11 +1136,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![matchingpro.png](../img/DS/PneuronDescriptions/matching.png) | Analytics | Provides complex matching algorithms that can be used to identify and consolidate duplicate records or match records from different databases. |
+| ![matchingpro.png](img/DS/PneuronDescriptions/matching.png) | Analytics | Provides complex matching algorithms that can be used to identify and consolidate duplicate records or match records from different databases. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/matchingconf.png)
+![image.png](img/DS/PneuronDescriptions/matchingconf.png)
 
 **Enable Notification Events**
 
@@ -1159,11 +1159,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![newmessage.png](../img/DS/PneuronDescriptions/newmessage.png) | Data Interaction | Generates a new XML message when defined criteria are satisfied by the content of an incoming XML message. |
+| ![newmessage.png](img/DS/PneuronDescriptions/newmessage.png) | Data Interaction | Generates a new XML message when defined criteria are satisfied by the content of an incoming XML message. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/newmessageconf.png)
+![image.png](img/DS/PneuronDescriptions/newmessageconf.png)
 
 **Enable Notification Events**
 
@@ -1186,11 +1186,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![nosql.png](../img/DS/PneuronDescriptions/nosql.png) | Data Interaction | Enables you to run queries on a NoSQL database. |
+| ![nosql.png](img/DS/PneuronDescriptions/nosql.png) | Data Interaction | Enables you to run queries on a NoSQL database. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/nosqlconf.png)
+![image.png](img/DS/PneuronDescriptions/nosqlconf.png)
 
 ###Data Source
 
@@ -1233,11 +1233,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![persist.png](../img/DS/PneuronDescriptions/persist.png) | Data Interaction | Used to save a message to a database table for future processing. |
+| ![persist.png](img/DS/PneuronDescriptions/persist.png) | Data Interaction | Used to save a message to a database table for future processing. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/persistconf.png)
+![image.png](img/DS/PneuronDescriptions/persistconf.png)
 
 **Enable Notification Events**
 
@@ -1253,7 +1253,7 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![neuron_group.png](../img/DS/PneuronDescriptions/project.png) | All | Enables you to create a new project for Pneuron Networks. |
+| ![neuron_group.png](img/DS/PneuronDescriptions/project.png) | All | Enables you to create a new project for Pneuron Networks. |
 
 ___
 
@@ -1261,11 +1261,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![predictive.png](../img/DS/PneuronDescriptions/predictive.png) | Analytics | Enables users to import and execute a PMML compliant predictive model within a network. |
+| ![predictive.png](img/DS/PneuronDescriptions/predictive.png) | Analytics | Enables users to import and execute a PMML compliant predictive model within a network. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/predictiveconf.png)
+![image.png](img/DS/PneuronDescriptions/predictiveconf.png)
 
 **Enable Notification Events**
 
@@ -1288,18 +1288,18 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![print.png](../img/DS/PneuronDescriptions/print.png) | Ouput| Provides ability to display XML message content within the Pneuron server console. |
+| ![print.png](img/DS/PneuronDescriptions/print.png) | Ouput| Provides ability to display XML message content within the Pneuron server console. |
 ___
 
 #Qubz Pneuron
 
 | Image | Category | Description |
 |--|--|--|
-| ![qubz.png](../img/DS/PneuronDescriptions/qubz.png) | Data Interaction | Provides ability to interact with Qubz's OLAP cubes and jobs.|
+| ![qubz.png](img/DS/PneuronDescriptions/qubz.png) | Data Interaction | Provides ability to interact with Qubz's OLAP cubes and jobs.|
 
 ## Pneuron Configuration
 
-![Qubz Config.PNG](../img/DS/PneuronDescriptions/qubzconf.png)
+![Qubz Config.PNG](img/DS/PneuronDescriptions/qubzconf.png)
 
 **Action**
 
@@ -1344,11 +1344,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![query.png](../img/DS/PneuronDescriptions/query.png) | Data Interaction | Provides ability to create and execute a SQL database query against a defined data source. |
+| ![query.png](img/DS/PneuronDescriptions/query.png) | Data Interaction | Provides ability to create and execute a SQL database query against a defined data source. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/queryconf.png)
+![image.png](img/DS/PneuronDescriptions/queryconf.png)
 
 **DB Source**
 
@@ -1379,11 +1379,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![record.png](../img/DS/PneuronDescriptions/record.png) | Data Interaction, Output | Records and stores events for auditing. |
+| ![record.png](img/DS/PneuronDescriptions/record.png) | Data Interaction, Output | Records and stores events for auditing. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/recordconf.png)
+![image.png](img/DS/PneuronDescriptions/recordconf.png)
 
 **DB Source**
 
@@ -1402,7 +1402,7 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![sas.png](../img/DS/PneuronDescriptions/sas.png) | Analytics | Provides ability to import and execute a SAS model within a network. |
+| ![sas.png](img/DS/PneuronDescriptions/sas.png) | Analytics | Provides ability to import and execute a SAS model within a network. |
 
 ___
 
@@ -1410,11 +1410,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![save.png](../img/DS/PneuronDescriptions/save.png) | Data Interaction | Saves a message to disk. |
+| ![save.png](img/DS/PneuronDescriptions/save.png) | Data Interaction | Saves a message to disk. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/saveconf.png)
+![image.png](img/DS/PneuronDescriptions/saveconf.png)
 
 **Destination Location**
 
@@ -1437,11 +1437,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![schedule.png](../img/DS/PneuronDescriptions/schedule.png) | Data Interaction | Provides ability to configure time intervals and recurring events for executing Pneurons or a Pneuron network. |
+| ![schedule.png](img/DS/PneuronDescriptions/schedule.png) | Data Interaction | Provides ability to configure time intervals and recurring events for executing Pneurons or a Pneuron network. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/scheduleconf.png)
+![image.png](img/DS/PneuronDescriptions/scheduleconf.png)
 
 **Enable Notification Events**
 
@@ -1488,11 +1488,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![sequence.png](../img/DS/PneuronDescriptions/sequence.png) | Messaging | Enables the network designer to set and increment a sequence number in an XML message. |
+| ![sequence.png](img/DS/PneuronDescriptions/sequence.png) | Messaging | Enables the network designer to set and increment a sequence number in an XML message. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/sequenceconf.png)
+![image.png](img/DS/PneuronDescriptions/sequenceconf.png)
 
 **DB Source**
 
@@ -1519,11 +1519,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![service.png](../img/DS/PneuronDescriptions/service.png) | Data Interaction, Output | Connects to a web service defined by a WSDL specification. |
+| ![service.png](img/DS/PneuronDescriptions/service.png) | Data Interaction, Output | Connects to a web service defined by a WSDL specification. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/serviceconf.png)
+![image.png](img/DS/PneuronDescriptions/serviceconf.png)
 
 **HTTP Alias**
 
@@ -1550,7 +1550,7 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![sharepoint.png](../img/DS/PneuronDescriptions/sharepoint.png) | Data Interaction | Connects to SharePoint to send or retrieve data. |
+| ![sharepoint.png](img/DS/PneuronDescriptions/sharepoint.png) | Data Interaction | Connects to SharePoint to send or retrieve data. |
 
 ___
 
@@ -1558,11 +1558,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![shell.png](../img/DS/PneuronDescriptions/shell.png) | Data Interaction | Executes shell scripts. |
+| ![shell.png](img/DS/PneuronDescriptions/shell.png) | Data Interaction | Executes shell scripts. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/shellconf.png)
+![image.png](img/DS/PneuronDescriptions/shellconf.png)
 
 **Commands**
 
@@ -1601,11 +1601,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![sniffer.png](../img/DS/PneuronDescriptions/sniffer.png) | Data Interaction | Monitors a URL and take an action if the URL is detected. |
+| ![sniffer.png](img/DS/PneuronDescriptions/sniffer.png) | Data Interaction | Monitors a URL and take an action if the URL is detected. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/snifferconf.png)
+![image.png](img/DS/PneuronDescriptions/snifferconf.png)
 
 **Enable Notification Events**
 
@@ -1636,11 +1636,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![solr.png](../img/DS/PneuronDescriptions/solr.png) | Data Interaction | Used to search through a Solr Server. |
+| ![solr.png](img/DS/PneuronDescriptions/solr.png) | Data Interaction | Used to search through a Solr Server. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/solrconf.png)
+![image.png](img/DS/PneuronDescriptions/solrconf.png)
 
 **Enable Notification Events**
 
@@ -1689,11 +1689,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![spark.png](../img/DS/PneuronDescriptions/spark.png) | Data Interaction | Used to submit Jar or Pyspark Applications to a Spark Cluster. |
+| ![spark.png](img/DS/PneuronDescriptions/spark.png) | Data Interaction | Used to submit Jar or Pyspark Applications to a Spark Cluster. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/sparkconf.png)
+![image.png](img/DS/PneuronDescriptions/sparkconf.png)
 
 **Spark Alias**
 
@@ -1732,11 +1732,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![starttransaction.png](../img/DS/PneuronDescriptions/start.png) | Messaging | Flags network messages as transactions for tracking network start. Used with Check Transaction Pneuron to determine when a network has completed processing. |
+| ![starttransaction.png](img/DS/PneuronDescriptions/start.png) | Messaging | Flags network messages as transactions for tracking network start. Used with Check Transaction Pneuron to determine when a network has completed processing. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/startconf.png)
+![image.png](img/DS/PneuronDescriptions/startconf.png)
 
 **Enable Notification Events**
 
@@ -1751,11 +1751,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![sp.png](../img/DS/PneuronDescriptions/stored.png) | Data Interaction | Calls a stored procedure within a defined data source. |
+| ![sp.png](img/DS/PneuronDescriptions/stored.png) | Data Interaction | Calls a stored procedure within a defined data source. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/storedconf.png)
+![image.png](img/DS/PneuronDescriptions/storedconf.png)
 
 **Enable Notification Events**
 
@@ -1782,11 +1782,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![pneuronupdate.png](../img/DS/PneuronDescriptions/update.png) | Data Interaction | Executes a database insert, delete or update statement against a defined data source. |
+| ![pneuronupdate.png](img/DS/PneuronDescriptions/update.png) | Data Interaction | Executes a database insert, delete or update statement against a defined data source. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/updateconf.png)
+![image.png](img/DS/PneuronDescriptions/updateconf.png)
 
 **Db Source**
 
@@ -1817,11 +1817,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![varcache.png](../img/DS/PneuronDescriptions/varcache.png) | Data Interaction | Inserts pre-defined user variable values into an outgoing XML message. These values can be viewed and changed in the ECM. |
+| ![varcache.png](img/DS/PneuronDescriptions/varcache.png) | Data Interaction | Inserts pre-defined user variable values into an outgoing XML message. These values can be viewed and changed in the ECM. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/varcacheconf.png)
+![image.png](img/DS/PneuronDescriptions/varcacheconf.png)
 
 **DB Source**
 
@@ -1852,11 +1852,11 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![var.png](../img/DS/PneuronDescriptions/var.png) | Data Interaction | Creates a new element in a message by adding a field to the outgoing XML message. |
+| ![var.png](img/DS/PneuronDescriptions/var.png) | Data Interaction | Creates a new element in a message by adding a field to the outgoing XML message. |
 
 ##Pneuron Configuration
 
-![image.png](../img/DS/PneuronDescriptions/varconf.png)
+![image.png](img/DS/PneuronDescriptions/varconf.png)
 
 **Enable Notification Events**
 
@@ -1879,4 +1879,4 @@ ___
 
 | Image | Category | Description |
 |--|--|--|
-| ![cloudwrapper.png](../img/DS/PneuronDescriptions/wrapper.png) | All | Encapsulates existing third party or customer written Java libraries, classes and methods into a Pneuron for use within a network. |
+| ![cloudwrapper.png](img/DS/PneuronDescriptions/wrapper.png) | All | Encapsulates existing third party or customer written Java libraries, classes and methods into a Pneuron for use within a network. |

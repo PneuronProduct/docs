@@ -8,7 +8,7 @@ After starting the Pneuron and web servers, you can start Pneuron Administration
 
     The Pneuron Administration Login screen appears.
 
-    ![image.png](../img/Admin/AdminGuide/ag1.png)
+    ![image.png](img/Admin/AdminGuide/ag1.png)
 
 3. Enter your User name, Password, and Host name for Pneuron Administration. Then click Login. The Pneuron Administration User Management page appears.
 
@@ -52,17 +52,18 @@ Pneuron provides three default, pre-configured users and roles for the Administr
 
 When configuring a user’s permissions, the administrator can assign privileges directly to the new user or assign a role. If the administrator selects a default role and then proceeds to modify the associated permissions, the system will prompt the administrator to save the existing configuration as a new role (the default roles cannot be modified). The role and user-based privilege configuration within the Pneuron Administration application is displayed below.
 
-![image.png](../img/Admin/AdminGuide/ag2.png)
+![image.png](img/Admin/AdminGuide/ag2.png)
 
 Users cannot modify the default roles. Instead, the user has the option of modifying and saving the default role into a custom new role for future use. In this case, the default roles are used as templates and accelerate creation of new roles. A user can be associated with only one role.
 
 Pneuron also provides group management features within the Administration application. Any number of groups can be created and managed within the Pneuron Administration. Groups are used to organize multiple users together. This approach is analogous to organizations, which have defined operational functions and access to specific information is relevant to only certain groups within the organization. Information Access can be configured either at the User level or at the Group level. The flow for configuring information access is displayed below.
 
-![image.png](../img/Admin/AdminGuide/ag3.png)
+![image.png](img/Admin/AdminGuide/ag3.png)
 
 Evaluation of the configured privileges and information access is important during system access and processing. The key evaluation rules are displayed below.
 
-![image.png](../img/Admin/AdminGuide/ag4.png)
+![image.png](img/Admin/AdminGuide/ag4.png)
+![image.png](img/Admin/AdminGuide/ag4.png)
 
 - Information access is determined by evaluating and combining across all information access assignments. For example, consider a scenario where a user is associated with multiple groups and also has individual information access assignment. One group has view for project 1 and second group has update for project 1 and user information access includes project 1 add, then the user has view, add, and update for the project at the information access level.
 

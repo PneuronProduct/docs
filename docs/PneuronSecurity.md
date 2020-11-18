@@ -1,13 +1,13 @@
 #Managing Pneuron Security
 The Security menu within Pneuron Administration enables administrators to set up user accounts with specific roles and privileges. Privileges are associated with roles, and roles are associated with user accounts. The following diagram shows the hierarchy of the security configuration model. Each hierarchical component can be customized.
 
-![image.png](../img/Admin/PneuronSecurity/ps1.png)
+![image.png](img/Admin/PneuronSecurity/ps1.png)
 
 ##Managing User Accounts
 ###Overview
 The **User Management** option is available under **Security** > **Users** > **User Management**. It enables administrators to create, modify, and delete user accounts for the Pneuron applications. Individual user accounts are associated with a password and are assigned specific roles and privileges. The System Administrator for the Pneuron applications must provide the initial account information in order for the users to access the Pneuron applications and change their password.
 
-![image.png](../img/Admin/PneuronSecurity/ps2.png)
+![image.png](img/Admin/PneuronSecurity/ps2.png)
 
 ###Adding a new user account
 To add a new user account:
@@ -26,7 +26,7 @@ The Add New screen will display below the User Management section with a section
 10. Click the **Reset Password** checkbox to require the user to change their password after the first successful login to the application. The user will be presented with popup asking them to change their password when they first log in. Reset Password is optional.
 11. Click the **Expire Date Enable** to establish a user access expiration date. Expire Date is optional.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps3.png)
+    ![image.png](img/Admin/PneuronSecurity/ps3.png)
 
 12. Click Save.
 13. Repeat Steps 2 through 12 to add more user accounts.
@@ -46,7 +46,7 @@ To delete a user account:
 1. Within the **User Management screen**, select and highlight the user account to be deleted. Click the green X icon at the end of the row.
 2. Click **OK** to confirm the deletion.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps4.png)
+    ![image.png](img/Admin/PneuronSecurity/ps4.png)
 
 ###Assigning Privileges to a User Account
 After a user account is created, administrators have two options for assigning privileges to a user:
@@ -60,7 +60,7 @@ To assign a role to a user account:
 
 1. From within the User Management screen, select the user account and then click on the Manage Roles icon within the row.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps5.png)
+    ![image.png](img/Admin/PneuronSecurity/ps5.png)
 
 2. A list of all existing roles and the choice “None” appears beneath the User Management screen.
 
@@ -77,18 +77,18 @@ To assign a role to a user account:
 
 3. Select the role using the drop-down menu.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps6.png)
+    ![image.png](img/Admin/PneuronSecurity/ps6.png)
 
 4. You can either click **Save** at the bottom of the section to complete the role management for a user account or you can customize the privileges.
 5. To modify the privileges for the assigned role, click on one or more of the sections under the Privilege Association for Role Admin.
 6. Clicking on the section will expand and present the list of available privileges for the application.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps7.png)
+    ![image.png](img/Admin/PneuronSecurity/ps7.png)
 
 7. Click **Save** to modify the privileges within each section.
 8. If the role has been modified, the administrator will be presented with the popup shown below.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps8.png)
+    ![image.png](img/Admin/PneuronSecurity/ps8.png)
 
 9. Click the OK to create a new role. The Create a new custom role window will appear. Enter the new role name and click Save. The role assignment for the user account is complete.
 10. If the administrator does not intend to create a new role, click Cancel.
@@ -107,7 +107,7 @@ Pneuron Administrators can view details for all users. This is helpful when mana
 | **Last Login Date** | Date the user last logged in. |
 | **Expire Date(()) | Current expiration date. |
 
-![image.png](../img/Admin/PneuronSecurity/ps9.png)
+![image.png](img/Admin/PneuronSecurity/ps9.png)
 
 ##Password Policy Management Overview
 Pneuron has implemented password configuration and management capabilities in order for administrators to establish and enforce password rules across the Pneuron system. Password management enables administrators to configure the following characteristics:
@@ -126,9 +126,9 @@ To modify password management:
 
 1. Click on **Security>Users>Password Policy Configuration**. The Password Management screen is displayed. The default Pneuron system password management is displayed if no changes have been applied.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps10.png)
+    ![image.png](img/Admin/PneuronSecurity/ps10.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps11.png)
+    ![image.png](img/Admin/PneuronSecurity/ps11.png)
 
 2. In the Minimum Password Length field, enter the minimum value for the password length.
 3. In the Maximum Password Length field, enter the maximum value for the password length.
@@ -152,7 +152,7 @@ To update the setting for password maximum login attempts:
 ##Mail Configuration Overview
 **Mail Configuration** allows the administrator to pre-define email messages that can be used for various reports, alerts or notifications when triggered.
 
-![image.png](../img/Admin/PneuronSecurity/ps12.png)
+![image.png](img/Admin/PneuronSecurity/ps12.png)
 
 ##Managing Roles Overview
 Pneuron Administration contains three pre-configured default role types: Admin, ECM Designer and NET Designer. Each role has its own set of specific privileges that describe the functions the user can perform and access within the Pneuron applications. The default roles cannot be modified in Role Management. If an administrator clicks on Manage Privileges for one of the default roles, the user will be presented “view only” access.
@@ -164,13 +164,13 @@ To add a new role:
 
 1. Click on **Security > Role Management**. The Role Management Screen will be displayed.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps13.png)
+    ![image.png](img/Admin/PneuronSecurity/ps13.png)
 
 2. From the Role Management screen, enter the name for the new role in the text box titled **Name** and click **Save**.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps14.png)
+    ![image.png](img/Admin/PneuronSecurity/ps14.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps15.png)
+    ![image.png](img/Admin/PneuronSecurity/ps15.png)
 
 3. Repeat Step 2 to add additional roles.
 
@@ -181,24 +181,24 @@ To assign privileges to a role:
 
 1. From the Role Management screen, select and highlight the role and then click on the **Manage Privileges** icon within the row.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps16.png)
+    ![image.png](img/Admin/PneuronSecurity/ps16.png)
 
 2. Privileges Associated for role is displayed beneath the Role Management screen.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps17.png)
+    ![image.png](img/Admin/PneuronSecurity/ps17.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps18.png)
+    ![image.png](img/Admin/PneuronSecurity/ps18.png)
 
 ###Deleting A Role
 To delete a role:
 
 1. Within the Role Management screen, administrators can click the green icon at the end of the row to delete a particular role.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps19.png)
+    ![image.png](img/Admin/PneuronSecurity/ps19.png)
 
 2. A pop-up window is presented to confirm the deletion. Click **OK** to confirm the deletion. The role is deleted and removed from the role listing.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps20.png)
+    ![image.png](img/Admin/PneuronSecurity/ps20.png)
 
 ##Managing Groups Overview
 Organizations perform specific functions and generally have access to specific information. By using groups and assigning them different information access permissions, administrators can organize Pneuron users into functional groups and manage access and privileges for groups of users easily. Additionally, by configuring the appropriate information access permissions, the administrator can control access to information within the application for groups of users.
@@ -207,16 +207,16 @@ The **Group Management** option enables administrators to create, modify, and de
 
 Pneuron users can be associated with one or more groups. Each of the groups can be assigned specific information access permissions. A user’s total access is determined by combining all of their group-information access assignments together. The level of access is also determined in combination with the user’s privileges previously configured within the application.
 
-![image.png](../img/Admin/PneuronSecurity/ps21.png)
+![image.png](img/Admin/PneuronSecurity/ps21.png)
 
 ###Adding A New Group
 To add a new group:
 
 1. Click on **Security > Group Management**. The Group Management screen is displayed.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps22.png)
+    ![image.png](img/Admin/PneuronSecurity/ps22.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps23.png)
+    ![image.png](img/Admin/PneuronSecurity/ps23.png)
 
 2. In the **Name** field of the Group Management screen, enter a name for the new group to be created. Name is a required field.
 3. In the **Description** field, enter a description associated with this new group. Description is an optional field.
@@ -237,7 +237,7 @@ To delete a group:
 1. From the Group Management screen, click the green icon at the end of row for the group to be deleted.
 2. Click **OK** to confirm the deletion.
 
-![image.png](../img/Admin/PneuronSecurity/ps24.png)
+![image.png](img/Admin/PneuronSecurity/ps24.png)
 
 ##Managing Information Access
 Information Access allows administrators to assign access to resources and artifacts created in the Pneuron applications. Pneuron resources include Projects, Aliases, Defined Queries, User Variables, and Dashboards with Widgets. Access permissions can be assigned either at the user or group level. After selecting the desired Pneuron resource, administrators have the ability to configure specific access permissions, which include view, add, update, or delete operations on the selected resource.
@@ -250,11 +250,11 @@ Privileges and information access are combined to evaluate which actions a user 
 
 1. Click on Security > Information Access Management. The Information Access Management screen is displayed. The default view presents users.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps25.png)
+    ![image.png](img/Admin/PneuronSecurity/ps25.png)
 
 2. Click on a user in the list to select. Click on the Information Access sections to expand and present the details.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps26.png)
+    ![image.png](img/Admin/PneuronSecurity/ps26.png)
 
 ###Adding Information Access Permissions To a User
 To add information access to a user:
@@ -262,14 +262,14 @@ To add information access to a user:
 1. Click on **Security > Information Access Management**. The Information Access Management screen is displayed. The default view presents users.
 2. Click on a user in the list below to select. Click on the Information Access sections to expand and present the details.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps27.png)
+    ![image.png](img/Admin/PneuronSecurity/ps27.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps28.png)
+    ![image.png](img/Admin/PneuronSecurity/ps28.png)
 
 3. Expand the information access sections. Check or uncheck relevant permissions associated with individual resources.
 4. Click the **Set IAMs** button to complete the user information access assignments. Administrators will receive system confirmation to indicate that the changes to the information access have been saved.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps29.png)
+    ![image.png](img/Admin/PneuronSecurity/ps29.png)
 
 5. Repeat Steps 2 through 4 to select and assign additional users information access permissions.
 
@@ -288,20 +288,20 @@ To add information access to a group:
 
 1. Click on **Security > Information Access Management**. The Information Access Management screen is displayed.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps30.png)
+    ![image.png](img/Admin/PneuronSecurity/ps30.png)
 
 2. The default view presents users. Click on the Groups in the radial control option. All configured groups will be displayed below:
 
-    ![image.png](../img/Admin/PneuronSecurity/ps31.png)
+    ![image.png](img/Admin/PneuronSecurity/ps31.png)
 
 3. Click the group to select. Click on the Information Access sections to expand the detailed information access permissions.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps32.png)
+    ![image.png](img/Admin/PneuronSecurity/ps32.png)
 
 4. Expand the information access sections. Check or uncheck relevant permissions associated with individual resources.
 5. Click the **Set IAMs** button to complete the group information access assignments.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps33.png)
+    ![image.png](img/Admin/PneuronSecurity/ps33.png)
 
     Administrators will receive system confirmation to indicate that the changes to the information access have been saved in the configuration.
 
@@ -322,9 +322,9 @@ The Properties Management option enables administrators to edit Pneuron configur
 
 1. Click on **Security > Properties Management**.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps34.png)
+    ![image.png](img/Admin/PneuronSecurity/ps34.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps35.png)
+    ![image.png](img/Admin/PneuronSecurity/ps35.png)
 
     To edit a configuration property:
 
@@ -341,9 +341,9 @@ To view client license details:
 
 1. Click on **Security > Client License Details**. The Client License Details screen is displayed with the specific details for the Pneuron applications and Pneurons.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps36.png)
+    ![image.png](img/Admin/PneuronSecurity/ps36.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps37.png)
+    ![image.png](img/Admin/PneuronSecurity/ps37.png)
 
 2. Administrators can view all license terms.
 
@@ -355,9 +355,9 @@ The process to update client license terms are as follows:
 3. Import the new license key into Client License Details.
 4. Click the **Browse** button to locate the license file. The Upload File Window will be displayed.
 
-    ![image.png](../img/Admin/PneuronSecurity/ps38.png)
+    ![image.png](img/Admin/PneuronSecurity/ps38.png)
 
-    ![image.png](../img/Admin/PneuronSecurity/ps39.png)
+    ![image.png](img/Admin/PneuronSecurity/ps39.png)
 
 5. Select the file. Click the **Open** button. Click the **Save** button to complete the license file update. You will receive confirmation the license file upload completed.
 6. Click **OK** to continue
@@ -366,9 +366,9 @@ The process to update client license terms are as follows:
 ##License Management Overview
 The **License Management** option shows the number of licenses that an install is allowed to allocate based upon user logins. Number of licenses indicates the total number allotted based upon the Pneuron License negotiated between Pneuron and clients. The number of free licenses indicate the number of unused licenses available. The expiration date indicates when those licenses will expire.
 
-![image.png](../img/Admin/PneuronSecurity/ps40.png)
+![image.png](img/Admin/PneuronSecurity/ps40.png)
 
 ##Lock Management Overview
 **Lock Management** gives the administrators the ability to view and release locks on projects and dashboards. A user may not log out of the Design Studio or Enterprise Control Manager properly leaving a project or Dashboard locked. Another user will not be able access some options of a project or Dashboard when it is locked such as Firing, Moving Pneurons or editing them. Removing the locks will allow a user to access these options.
 
-![image.png](../img/Admin/PneuronSecurity/ps41.png)
+![image.png](img/Admin/PneuronSecurity/ps41.png)

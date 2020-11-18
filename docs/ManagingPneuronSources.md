@@ -30,7 +30,7 @@ To add an Environment:
 3. Enter a description in the **Comment** field, if desired.
 4. Click the **Save** Button.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps1.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps1.png)
 
 You can use the **Clone** button to copy an existing Environment. To use the Clone feature, select the Environment to copy and click the **Clone** button. You will be prompted to give the Environment a new name.
 
@@ -65,7 +65,7 @@ All Alias types are added in the same manner, and they are then configured indep
 4. Press the **Save** Button
 5. If you have more than one environment configured, you will be prompted to configure the new Alias for each environment. See Configuring an Alias, below.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps2.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps2.png)
 
 You can use the **Clone** button to copy an existing Alias. To use the Clone feature, select the Alias you would like to copy and click the **Clone** button. You will be prompted to give the Alias a new name.
 
@@ -76,11 +76,11 @@ To configure data sources:
 
 1. Select the alias you wish to configure from the grid and expand the properties for that alias. If you wish to add a new Alias, see Adding an Alias, above.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps3.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps3.png)
 
 2. If you have configured multiple Environments, select the environment in which you would like to configure your Alias.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps4.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps4.png)
 
 Enter the alias properties based on the alias type as outlined below. Please note that the properties of the alias will be different depending on what type of data source you have chosen. Reference the appropriate Definitions section below:
 
@@ -208,7 +208,7 @@ To add a new query:
 
 1. Click SQL Statement Management on the Sources menu. You will be in the Add New mode.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps5.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps5.png)
 
 2. Enter the appropriate information in the following fields:
 
@@ -238,7 +238,7 @@ To copy a query:
 3. Name it as required in the **Copy Query** dialog box.
 4. Click **OK**.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps6.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps6.png)
 
 ###Deleting A Query
 To delete a query:
@@ -253,7 +253,7 @@ To add a new host:
 
 1. Click on **Sources > Host Management**.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps7.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps7.png)
 
 2. In the **Host Name** field on the **Host Management** screen, enter the IP address or hostname and port number of the host that you are adding.
 3. Click **Save**.
@@ -274,7 +274,7 @@ To delete a host:
 ##Hypervisor Management
 A Hypervisor definition identifies the Pneuron hosts participating in an AWS dynamic cluster as well as the secret key and access id required to start/stop the Pneuron hosts. Each pneuron identity field maps the local IP address to the AWS generated identity value. In the screen shot below, four Pneuron hosts are configured to participate in the dynamic cluster.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps8.png)
+![image.png](img/Admin/ManagingPneuronSources/mps8.png)
 
 ##Schedule Management Overview
 Schedule Management allows administrators the ability to configure a time of day at which defined document indexes will be updated. It also provides a feature to allow an administrator to start the indexing process manually.
@@ -296,7 +296,7 @@ To set a document index schedule or start the index process manually:
 
 8. Click the **Index Now** button to manually initiate the document indexing process on the server.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps9.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps9.png)
 
 ##User Variables Management Overview
 User Variables Management provides a central location where user variables used by Projects in Design Studio can be created and managed by administrators. This option within Pneuron Administration saves user variables in the same manner and location as the User Variables menu command in Design Studio.
@@ -313,7 +313,7 @@ Add New will be the default mode when entering the area.
 6. Click Save.
 7. To add additional variables, click the Add New button and repeat Steps 2 through 6.
 
-    ![image.png](../img/Admin/ManagingPneuronSources/mps10.png)
+    ![image.png](img/Admin/ManagingPneuronSources/mps10.png)
 
 ###Editing A User Variable
 To edit a User Variable:
@@ -323,7 +323,7 @@ To edit a User Variable:
 
 Once a User Variable has been created, you can edit the Value field only. If you desire to change any of the other field values, you must delete the user variable and use the **Add New** button to recreate.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps11.png)
+![image.png](img/Admin/ManagingPneuronSources/mps11.png)
 
 ###Deleting A User Variable
 To delete a User Variable:
@@ -336,7 +336,7 @@ Templates Management provides a central location where templates created and use
 
 To access the Templates Management screen, choose **Templates Management** from the **Sources** menu. The screen will be displayed as below.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps12.png)
+![image.png](img/Admin/ManagingPneuronSources/mps12.png)
 
 Use the **Advanced Filtering** button to filter the list of templates by name and tab name.
 
@@ -362,7 +362,7 @@ Data Format Management is used by Administrators to manage custom data formats t
 
 Pneuron is installed with a set of commonly used formats. The system formats cannot be removed, but any custom Data Formats added by Administrators or users can be removed by clicking the icon on the Data Format item to be removed.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps13.png)
+![image.png](img/Admin/ManagingPneuronSources/mps13.png)
 
 ###Adding New Data Format Information
 To add a new data format:
@@ -371,7 +371,7 @@ To add a new data format:
 2. Select a Data Format Type.
 3. Enter a description. The sample field will dynamically display the entered description as a sample.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps14.png)
+![image.png](img/Admin/ManagingPneuronSources/mps14.png)
 
 4. Click Save.
 
@@ -386,7 +386,7 @@ To view or edit an existing data format:
 ##Global Panel Management Overview
 Global Panel Management allows an administrator to create Design Studio Panels which all users can see and utilize. The Global Panels are indicated in Design Studio by their icon.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps15.png)
+![image.png](img/Admin/ManagingPneuronSources/mps15.png)
 
 ###Viewing/Editing GLobal Panels
 To view or edit an existing Global Panel:
@@ -400,20 +400,20 @@ When present, a list of Global Panels will be displayed. The default Add New mod
 ##Refresh All Projects
 This option is available on the main menu and is used to refresh all projects so that they reflect the changes that have been made in the Admin module.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps16.png)
+![image.png](img/Admin/ManagingPneuronSources/mps16.png)
 
 A dialog box appears as shown below:
 
-![image.png](../img/Admin/ManagingPneuronSources/mps17.png)
+![image.png](img/Admin/ManagingPneuronSources/mps17.png)
 
 ##Pneuron Types Management
 The **Pneuron Types Management** option from the main menu enables you to manage the Pneuron types in the system.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps18.png)
+![image.png](img/Admin/ManagingPneuronSources/mps18.png)
 
 When clicked, a dialog box appears as shown below.
 
-![image.png](../img/Admin/ManagingPneuronSources/mps19.png)
+![image.png](img/Admin/ManagingPneuronSources/mps19.png)
 
 To add a new Pneuron type,
 

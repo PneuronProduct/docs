@@ -3,7 +3,7 @@ ___
 The Project Pneuron is the first Pneuron created and is the parent of the network. You define the name of the project by simply renaming the Project Pneuron. As you assign Pneurons to the network within the project, you identify this project as the associated project name.
 Right-click the Project Pneuron to view the box shown below.
 
-![image.png](../img/DS/ProjectMenuCommands/pmc1.png)
+![image.png](img/DS/ProjectMenuCommands/pmc1.png)
 
 
 | **Project Menu Name** | **Description** |
@@ -28,26 +28,26 @@ Right-click the Project Pneuron to view the box shown below.
 ###Move to Panel
 The canvas area in Design Studio includes a feature that allows designers to create one or more working panels to assist with managing their work area. The first time you log in, you see only the default canvas tab titled Main Panel. All projects that designers create, or have permission to view, will be displayed on the Main Panel. Use the Move To panel option to open the Project in an existing working panel or create a new working panel.
 
-![actions.png](../img/DS/ProjectMenuCommands/pmc2.png)
+![actions.png](img/DS/ProjectMenuCommands/pmc2.png)
 
 Select an existing panel, or create a new one. Clicking New Panel will display an input box to name the new panel.
 
 After you have made your selections, click the Move to this Panel button to move the project to that panel. Once a project has been opened in a panel, the project icon on the Main Panel will be displayed with an icon as shown below.
 
-![image.png](../img/DS/ProjectMenuCommands/pmc3.png)
+![image.png](img/DS/ProjectMenuCommands/pmc3.png)
 
 Refer to the Project Icons section in this document for additional information on other icons that can be displayed on the Project.
 
 ##Expand
 Use this menu option to “open” a Project and view the Pneurons and connections for the Project. This command has several options:
 
-![image.png](../img/DS/ProjectMenuCommands/pmc4.png)
+![image.png](img/DS/ProjectMenuCommands/pmc4.png)
 
 - **Expand for edit** - Shows all Pneurons and categories within the network with the ability to edit.
 - **Expand for view** - Shows all Pneurons and Categories within the network, for viewing only. The icons will be displayed greyed and with a lock symbol.
 - **Expand network and categories** - Shows all Pneurons within the network. All Categories are expanded.
 
-![actions.png](../img/DS/ProjectMenuCommands/pmc5.png)
+![actions.png](img/DS/ProjectMenuCommands/pmc5.png)
 
 ##Refresh
 This command stops and restarts all the Pneurons in the Project on the Pneuron Server(s). This action will also reset statistics for all the Pneurons in the Project.
@@ -59,14 +59,14 @@ This menu option allows the designer to reset the Statistics for the Pneuron to 
 
 **Before/After**
 
-![actions.png](../img/DS/ProjectMenuCommands/pmc6.png)
+![actions.png](img/DS/ProjectMenuCommands/pmc6.png)
 
 ##Change Image Properties
-![actions.png](../img/DS/ProjectMenuCommands/pmc7.png)
+![actions.png](img/DS/ProjectMenuCommands/pmc7.png)
 
 The **Change Image Properties** option presents the user with a dialog box that has options to change the attributes of the Project icon.
 
-![image.png](../img/DS/ProjectMenuCommands/pmc8.png)
+![image.png](img/DS/ProjectMenuCommands/pmc8.png)
 
 Designers can change the size of the icon and icon text using the buttons provided. To change the icon image, click the Browse button, navigate to the desired image file, and click Upload. Click Save to save the image properties and return to the canvas.
 
@@ -82,7 +82,7 @@ To create a generic error connection to another Project:
 5. Toggle the Always Call value to true or false. True means that all errors will be sent to the selected error network. False means that only errors that do not have another configured error branch within the network will be sent to the generic handler network.
 6. Click **Close** and return to the canvas.
 
-    ![actions.png](../img/DS/ProjectMenuCommands/pmc9.png)
+    ![actions.png](img/DS/ProjectMenuCommands/pmc9.png)
 
 Click **Add New**, select values in the drop downs, click **Save**
 
@@ -93,7 +93,7 @@ To export a Project:
 1. Within Pneuron Design Studio, right-click on the Project that you want to export and select Save. A file directory window appears*.
 2. Choose the file directory where you want to export the network and click Save. The Pneuron Project is saved to the designated directory. A downloads list appears.
 
-    ![image.png](../img/DS/ProjectMenuCommands/pmc10.png)
+    ![image.png](img/DS/ProjectMenuCommands/pmc10.png)
 
     **NOTE:** If the file directory window does not appear, then your browser setting automatically saves downloads to a specific directory.You can change this browser setting so that you can manually specify where you want to save downloads each time.
 
@@ -106,7 +106,7 @@ To copy a project:
 
 1. Right-click on the project that you want to copy and select Copy Project.
 
-    ![image.png](../img/DS/ProjectMenuCommands/pmc11.png)
+    ![image.png](img/DS/ProjectMenuCommands/pmc11.png)
 
     When copying a project, there are three options for setting the host for the copied Pneurons within the Project:
 
@@ -118,18 +118,18 @@ To copy a project:
 
 2. Enter a name for the project in the New Name column (replace the [Change Me] value), enter a prefix for each Pneuron in the destination Project, and click OK. A dialog box appears, which asks if you wish to stop any running Pneurons on the project you are about to copy:
 
-    ![image.png](../img/DS/ProjectMenuCommands/pmc12.png)
+    ![image.png](img/DS/ProjectMenuCommands/pmc12.png)
 
 3. Click Yes to stop any running Pneurons.
 
 4. Click OK on the confirmation message. The copied project appears on the canvas appended with the name entered in step 1.
 
-    ![image.png](../img/DS/ProjectMenuCommands/pmc13.png)
+    ![image.png](img/DS/ProjectMenuCommands/pmc13.png)
 
 ##Rename and Description
 Use this command to rename the Project or change its description.
 
-![image.png](../img/DS/ProjectMenuCommands/pmc14.png)
+![image.png](img/DS/ProjectMenuCommands/pmc14.png)
 
 Enter a new Project name and/or description and click **Save** to return to the canvas.
 
@@ -138,7 +138,7 @@ The **Delete** command allows designers to remove the selected Project. Once sel
 
 Multiple Projects can be deleted at the same time by holding **CTRL** and click/selecting multiple Projects, right-clicking and choosing the **Delete** command.
 
-![image.png](../img/DS/ProjectMenuCommands/pmc15.png)
+![image.png](img/DS/ProjectMenuCommands/pmc15.png)
 
 ##Defined SQL Statements
 Designers and administrators have the ability to create predefined SQL statements for use in Projects in Design Studio. This is useful when the designer wants to use SQL statements that have been created and tested for a particular requirement, versus creating the query from scratch. This feature also allows administrators to control access to queries. The **Defined SQL Statements** menu command displays the input and management window below:
@@ -146,7 +146,7 @@ Designers and administrators have the ability to create predefined SQL statement
 1. From the Design Studio main menu, select **Actions** > **Defined SQL statements**.
 The window will open in the default **Add New** mode.
 
-    ![image.png](../img/DS/ProjectMenuCommands/pmc16.png)
+    ![image.png](img/DS/ProjectMenuCommands/pmc16.png)
 
     **TIP:** Delete Predefined SQL Statements by clicking the green 'X' icon.
 
@@ -165,7 +165,7 @@ In order to employ global user variables, they must be defined in Design Studio 
 
 1. Right-click on a Project and select User Variables from the box that appears.
 
-    ![image.png](../img/DS/ProjectMenuCommands/pmc17.png)
+    ![image.png](img/DS/ProjectMenuCommands/pmc17.png)
 
     Enter the appropriate data in the following fields and click **Save**.
 
@@ -192,7 +192,7 @@ Pneuron categories are specific to the project; the category names cannot be tra
 
 Use the **Manage Categories** menu command to create and manage categories for a Project.
 
-![image.png](../img/DS/ProjectMenuCommands/pmc18.png)
+![image.png](img/DS/ProjectMenuCommands/pmc18.png)
 
 **TIP:** To edit the name of a category, double-click the name.
 

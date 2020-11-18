@@ -3,7 +3,7 @@ Durable Message Management is where administrators can filter, view and remove m
 
 To access the **Durable Message Management** option, choose Durable Message Management from the **Data Management** menu. The screen will be displayed as below.
 
-![image.png](../img/Admin/DataManagement/dm1.png)
+![image.png](img/Admin/DataManagement/dm1.png)
 
 The Durable Message Management screen has the following components:
 
@@ -26,7 +26,7 @@ Durable Message Transfer Management enables administrators to filter, view and r
 
 To access the **Durable Message Transfer Management** screen, choose **Durable Message Transfer Management** from the **Data Management** menu. The screen below will be displayed.
 
-![image.png](../img/Admin/DataManagement/dm2.png)
+![image.png](img/Admin/DataManagement/dm2.png)
 
 The Durable Message Management screen has the following components:
 
@@ -49,7 +49,7 @@ Notification Management enables administrators to view, activate and deactivate 
 
 To access the **Notification Management** screen, choose **Notification Management** from the **Data Management** menu. The screen below will be displayed.
 
-![image.png](../img/Admin/DataManagement/dm3.png)
+![image.png](img/Admin/DataManagement/dm3.png)
 
 The Notification Management screen lists the available notification events for the Pneuron system. The events can be filtered using the available fields in the filter controls. Administrators can activate and deactivate all events in the system, or individual events by clicking the **Is Active** column value for an event in the grid.
 
@@ -71,7 +71,7 @@ Once the Administrator has selected which system events to activate, the Pneuron
 
 The notification_events table will need to be managed externally by a database system administrator. Events should be purged on a periodic basis so that the size of the table does not grow too large over time.
 
-![image.png](../img/Admin/DataManagement/dm4.png)
+![image.png](img/Admin/DataManagement/dm4.png)
 
 ###Associating Tags With Events
 Event entries can be categorized by the Administrator, if desired, by associating Tags with the events in the system. Events which have associated tags will log the tag information in the notification_events database table where they can by searched and filtered by System Administrators.
@@ -80,7 +80,7 @@ To associate a tag or category with an event:
 
 1. Click on the tag icon on the event in which you want to associate a tag in the events list grid.
 
-![image.png](../img/Admin/DataManagement/dm5.png)
+![image.png](img/Admin/DataManagement/dm5.png)
 
 2. Choose the tag from the available tags in the list. For information on creating tags, see Notification Tag Management section of this document.
 3. Click OK to return to the event grid.
@@ -104,7 +104,7 @@ Notification Tag Management enables Administrators to create event tags, or cate
 
 To access the Notification Tag Management option, choose Notification Tag Management from the **Data Management** menu. The screen below will be displayed.
 
-![image.png](../img/Admin/DataManagement/dm6.png)
+![image.png](img/Admin/DataManagement/dm6.png)
 
 The controls at the top of the screen allow you to filter the list of created tags in the system.
 
@@ -144,14 +144,14 @@ In order to utilize clusters in Pneuron:
 - Two or more Pneuron Servers must be installed and configured to use the same pneuron_config configuration database
 - One or more JMS messaging servers must be available to the Pneuron environment (e.g. Active MQ)
 
-![image.png](../img/Admin/DataManagement/dm7.png)
+![image.png](img/Admin/DataManagement/dm7.png)
 
 ###Creating New Cluster
 When you access the Cluster Management screen, you will be in the Add New mode as shown.
 
 Complete the entries as outlined in the following steps to create a Cluster:
 
-![image.png](../img/Admin/DataManagement/dm8.png)
+![image.png](img/Admin/DataManagement/dm8.png)
 
 1. Enter a **Cluster Name**. This should reflect the purpose of the cluster. Cluster names must be unique.
 2. Choose a Communication alias. See the Alias Management section of the guide for configuring a JMS Data Source. The Communication alias acts as a ‘Heartbeat’ for the cluster members to communicate. Multiple clusters can use the same Communication Alias if desired.
@@ -173,7 +173,7 @@ Updating an Existing Cluster:
 2. Make any changes desired to the existing fields.
 3. Click the **Update** button.
 
-![image.png](../img/Admin/DataManagement/dm9.png)
+![image.png](img/Admin/DataManagement/dm9.png)
 
 ###Configuring A Cluster
 The high-level steps to establish and configure a Cluster are:
@@ -202,11 +202,11 @@ The user must assign available Pneuron servers to the cluster. These servers wil
 
 In order to configure Hosts within a cluster, the host server(s) must have already been created and configured to point to the correct pneuron_config database.
 
-![image.png](../img/Admin/DataManagement/dm10.png)
+![image.png](img/Admin/DataManagement/dm10.png)
 
 1. Click the icon below the Hosts column for the desired cluster. A Cluster Host Menu window appears.
 
-    ![image.png](../img/Admin/DataManagement/dm11.png)
+    ![image.png](img/Admin/DataManagement/dm11.png)
 
 2. Choose a Host Name from the drop down of available configured Hosts (See the Host Management section to configure hosts.)
 3. Choose a Host Type from the dropdown. A Host can be a dispatcher and/or a worker. If you would like the server to act as both a dispatcher and a worker, two entries must be made (see image above)
@@ -220,7 +220,7 @@ To define the Problem (Project) to which the JMS messages will be sent:
 
 1. Click on the icon under the **Problems** column for the desired cluster. A Cluster Problems menu will appear.
 
-  ![image.png](../img/Admin/DataManagement/dm12.png)
+  ![image.png](img/Admin/DataManagement/dm12.png)
 
 2. A Problem is created to define a Project and Pneuron to receive messages from a configured JMS Queue. In the **Problem Name** text box, create an appropriate alias for this use of the cluster.
 3. Select the Pneuron Project where the desired “receiver” Pneuron is located.
@@ -231,7 +231,7 @@ To define the Problem (Project) to which the JMS messages will be sent:
 8. Click **Save**. The Problem will be added to the list above.
 9. Click on the icon below Host Problems to set the hosts that will be made available to the cluster. A Host Problems menu will appear.
 
-    ![image.png](../img/Admin/DataManagement/dm13.png)
+    ![image.png](img/Admin/DataManagement/dm13.png)
 
 10. Choose a Host Name from the list of available Hosts. (See Host Management for steps on how to configure hosts.)
 11. Choose if the host will be added to the Generic Pool. Selecting Yes will allow the host to process any messages that are passed to it. Select No if you want the host to ONLY process messages that meet the filter condition.
@@ -243,4 +243,4 @@ To define the Problem (Project) to which the JMS messages will be sent:
 
 After completing the steps required to created and configure the Cluster, Problems and associated Hosts, the cluster should form and display its status on the Pneuron Server Console screen, and the server log:
 
-![image.png](../img/Admin/DataManagement/dm14.png)
+![image.png](img/Admin/DataManagement/dm14.png)

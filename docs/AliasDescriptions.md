@@ -3,7 +3,7 @@
 ##Configuration
 Alias used to describe HTTP Pneuron action
 
-![image.png](../img/DS/AliasDescriptions/configuration.png)
+![image.png](img/DS/AliasDescriptions/configuration.png)
 
 ###_Config Options_
 - **Description:** Description.
@@ -26,16 +26,16 @@ Alias for JDBC/ODBC connections
 - **Username:** Username of user you connect with.
 
 ####_Qubz Example_
-![image.png](../img/DS/AliasDescriptions/qubzex.png)
+![image.png](img/DS/AliasDescriptions/qubzex.png)
 **Instance:** Project Name within Qubz
 
 ####_Hive Example_
-![image.png](../img/DS/AliasDescriptions/hiveex.png)
+![image.png](img/DS/AliasDescriptions/hiveex.png)
 ___
 ##Directory
 Alias for directory on the local machine. Allows Pneurons to access file system. This alias can only be created in the Administration platform.
 
-![image.png](../img/DS/AliasDescriptions/directory.png)
+![image.png](img/DS/AliasDescriptions/directory.png)
 
 ###_Config Options_
 - **Delete Permission:** Does this alias allow for deletion? `Yes` or `No`.
@@ -48,7 +48,7 @@ Alias for directory on the local machine. Allows Pneurons to access file system.
 ___
 ##Event Hubs
 
-![image.png](../img/DS/AliasDescriptions/eventhubs.png)
+![image.png](img/DS/AliasDescriptions/eventhubs.png)
 
 ###_Config Options_
 - **Consumer Group:** Consumer group set in Azure portal. Default option is $Default
@@ -60,7 +60,7 @@ ___
 ##FTP
 Alias for FTP and SFTP connections. Used in FTP Pneuron.
 
-![image.png](../img/DS/AliasDescriptions/ftp.png)
+![image.png](img/DS/AliasDescriptions/ftp.png)
 
 ###_Config Options_
 - **Data Timeout:** Timeout for actions on FTP server in seconds.
@@ -78,7 +78,7 @@ ___
 ##HTTP
 Alias for HTTP and Service Pneurons. Allows for connections to REST and SOAP APIs.
 
-![image.png](../img/DS/AliasDescriptions/http.png)
+![image.png](img/DS/AliasDescriptions/http.png)
 
 ###_Config Options_
 - **Password:** Password of user you connect with. May not be needed.
@@ -91,7 +91,7 @@ ___
 
 Alias use to connect with JMS Queues. Used in JMS Listener and JMS Publisher Pneurons.
 
-![image.png](../img/DS/AliasDescriptions/jms.png)
+![image.png](img/DS/AliasDescriptions/jms.png)
 
 ###_Config Options_
 - **JMS Client Type:** Type of client for JMS Queue. Currently Supports three types: `ActiveMQ`, `ActiveMQFailover`, `Kafka`.
@@ -104,7 +104,7 @@ ___
 
 Alias for Kafka listeners and publishers
 
-![image.png](../img/DS/AliasDescriptions/kafka.png)
+![image.png](img/DS/AliasDescriptions/kafka.png)
 
 ###_Config Options_
 - **Consumer Group**: The consumer group name for listeners. All listeners with the same consumer group will share the same offset.
@@ -117,7 +117,7 @@ ___
 
 Mail alias used to send and read emails. Used in Mail and Mail Reader Pneurons.
 
-![image.png](../img/DS/AliasDescriptions/mail.png)
+![image.png](img/DS/AliasDescriptions/mail.png)
 
 ###_Config Options_
 - **Domain Patterns:** Any domain patterns needed to connect to mail server.
@@ -135,7 +135,7 @@ ___
 
 Alias used to connect to NoSQL data source. Used in NoSQL Pneuron.
 
-![image.png](../img/DS/AliasDescriptions/nosql.png)
+![image.png](img/DS/AliasDescriptions/nosql.png)
 
 ###_Config Options_
 - **Additional Configuration:** Any additional configuration needed.
@@ -153,7 +153,7 @@ ___
 ##Spark
 Alias for Spark Pneuron
 
-![image.png](../img/DS/AliasDescriptions/spark.png)
+![image.png](img/DS/AliasDescriptions/spark.png)
 
 ###_Config Options_
 - **Deployment Mode:** There are two deploy modes that can be used to launch Spark applications on YARN. In cluster mode, the Spark driver runs inside an application master process which is managed by YARN on the cluster, and the client can go away after initiating the application. In client mode, the driver runs in the client process, and the application master is only used for requesting resources from YARN. If you are not using Yarn leave as Client.
