@@ -2,6 +2,7 @@ site_name: Pneuron Docs
 nav:
     - Home: index.md
     - About: about.md
+    - Glossary And Terms: GlossaryAndTerms.md
     - Pneuron Design Studio:
         - Design Studio Overview: DesignStudio/DesignStudioGuide.md
         - Basic Navigation: DesignStudio/BasicNavigation.md
@@ -10,7 +11,6 @@ nav:
         - Project Menu Command And Functions: DesignStudio/ProjectMenuCommandsAndFunctions.md
         - Pneuron Descriptions: DesignStudio/PneuronDescriptions.md
         - Alias Descriptions: DesignStudio/AliasDescriptions.md
-        - Glossary And Terms: DesignStudio/GlossaryAndTerms.md
     - Pneuron Enterprise Control Manager:
         - Enterprise Control Manager Overview: EnterpriseControlManager/EnterpriseControlManagerGuide.md
         - Understanding The Enterprise Control Manager: EnterpriseControlManager/UnderstandingPneuronEnterpriseControlManager.md

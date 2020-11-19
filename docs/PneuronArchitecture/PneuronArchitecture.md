@@ -1,6 +1,4 @@
-[[_TOC_]]
-
-#Overview
+#Pneuron Architecture
 In simplest terms, the Pneuron server is a container of Pneurons, providing the needed infrastructure which allows pneurons to function. The Pneuron server is implemented as a Java 6 standalone program which is able to run in multiple of today's server operating systems. It is expected that multiple Pneuron servers will be deployed in a large scale or distributed environment. To support this any given Pneuron server can contain large numbers of Pneurons and communicate with remote Pneuron servers seamlessly.
 
 ##Overview of Solution Stack
@@ -94,7 +92,7 @@ The configuration neuron is a special purpose Pneuron which is used to load and 
 neurons in the server. The configuration neuron is the only neuron which is not dynamically loaded; it is loaded during server startup. The configuration database is the repository of all neurons in the neural network and their configurations.
 
 ###Inter Pneuron Communication
-Messages sent between neurons are all XML based, they are all constructed and parsed by the convince methods provide by the NeuronBase abstract class. Each neuron adds it’s data fields to the data section and the convince methods populate the remaining fields.
+Messages sent between neurons are all bit stream based, they are all handled by the convince methods provide by the NeuronBase abstract class. Each neuron adds it’s data fields the message and the convince methods populate the remaining fields. The messages are displayed as JSON in the console when printed using the Print Pneuron. 
 
 ###Sample Message
 <message>
@@ -121,23 +119,23 @@ The Pneuron Server has been written as a scalable and generic container of Pneur
 ###Security
 Security for the Pneuron service is based flexible privilege and role design, it is intended to run in a standalone mode or integrated with an enterprise directory service. Security is enforce exclusively during network design time and not runtime thus not impacting run time performance. The goal of the security subsystem is to keep unauthorized people from making changes to the Pneuron system and provide a read only environment for people with limited access.
 
-##Web Services
-The server also exports several remote procedure calls via Web services which are used by applications to communicate with the Pneuron server. Currently three separate services are provided, one to configure neurons, the second to manage data sources and receive message from remote systems.
+##REST Services
+The server also exports several remote procedure calls via Web services which are used by applications to communicate with the Pneuron server. Currently six separate services are provided.
 
-###Configuration WEB Service
+###[Configuration Service](PneuronArchitecture/ConfigurationServices)
 The neuron configuration service allows for the addition, deletion and modification of neurons. All connections between neurons are also managed via this service.
 
-###Licensing Web Services
+###[Licensing Services](PneuronArchitecture/LicenseServices)
 The license service allows remote systems to manage the licensing server.
 
-###Lock Manager Web Services
+###[Lock Manager Services](PneuronArchitecture/LockServices)
 The locking services allows remote systems to manage locks on the server.
 
-###Message WEB Services
+###[Message Services](PneuronArchitecture/MessageServices)
 The message service allows remote systems to add messages directly onto the servers internal message queue.
 
-###Monitor Web Services
+###[Monitor Services](PneuronArchitecture/MonitoringServices)
 The monitor services allows remote systems to manage monitor statistics on the server.
 
-###Robot Web Services
+###[Robot Services](PneuronArchitecture/RobotServices)
 The robot web services allows remote systems to monitor web scraper.
