@@ -136,10 +136,11 @@ If you are using Windows XP, the Pneuron installation directory is automatically
      
     ![image.png](../img/Installation/Windows/w5.png)
 	
-	- Both applications are selected above. This is appropriate for a single server install. If configuring a web server and Pneuron server, Server should be selected for the Pneuron Server and Pneuron UI selected for the web server. In this case, the install process is executed on both machines.
    
 8. Click **Next**. The following screen shows the installation progress
-
+	
+    - Both applications are selected above. This is appropriate for a single server install. If configuring a web server and Pneuron server, Server should be selected for the Pneuron Server and Pneuron UI selected for the web server. In this case, the install process is executed on both machines.
+	
     ![image.png](../img/Installation/Windows/w6.png)
 
 9. When the installation process is finished, click **Next**.

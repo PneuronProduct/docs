@@ -1,5 +1,5 @@
 #Pneuron Architecture
-In simplest terms, the Pneuron server is a container of Pneurons, providing the needed infrastructure which allows pneurons to function. The Pneuron server is implemented as a Java 6 standalone program which is able to run in multiple of today's server operating systems. It is expected that multiple Pneuron servers will be deployed in a large scale or distributed environment. To support this any given Pneuron server can contain large numbers of Pneurons and communicate with remote Pneuron servers seamlessly.
+In simplest terms, the Pneuron server is a container of Pneurons, providing the needed infrastructure which allows pneurons to function. The Pneuron server is implemented as a Java 8 standalone program which is able to run in multiple of today's server operating systems. It is expected that multiple Pneuron servers will be deployed in a large scale or distributed environment. To support this any given Pneuron server can contain large numbers of Pneurons and communicate with remote Pneuron servers seamlessly.
 
 ##Overview of Solution Stack
 ![image.png](../img/Architecture/arch1.png)
