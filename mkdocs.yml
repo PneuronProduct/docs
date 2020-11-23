@@ -35,6 +35,7 @@ nav:
     - Installation:
         - Pneuron Installation (Linux): Installation/PneuronInstallationLinux.md
         - Pneuron Installation (Windows): Installation/PneuronInstallationWindows.md
+        - Pneuron Installation (Docker): Installation/PneuronInstallationDocker.md
 theme: 
     name: readthedocs
     custom_dir: 'custom_theme'
