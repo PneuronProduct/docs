@@ -78,8 +78,50 @@ Prior to performing the deployment of the dockerized Pneuron applications we wou
 	- `sudo docker load < sql_template.tar.gz`
 	- `sudo docker load < pneuron_latest.tar.gz`
 
-4. Then run the command `docker-compose up`. If the environment is set up appropriately then this should launch the web server, config database, and Pneuron server. You can access the Pneuron UIs at the following hosts.
+4. Then run the command `sudo docker-compose up`. If the environment is set up appropriately then this should launch the web server, config database, and Pneuron server. You should see the following when you execute the command.
+
+    ![image.png](../img/Installation/Docker/d3.PNG)
+
+    > Once the images are fully up and running you can access the Pneuron UIs at the following hosts.
 
     - DS: http://[IP address of docker host]/ds
     - ECM: http://[IP address of docker host]/ecm
     - Admin:  http://[IP address of docker host]/admin
+
+##Deploying Dockerized Pneuron In Kubernetes
+
+1. The environment must be prepared before deployment. This would mean you have a Kubernetes cluster and the Kompose application installed needed to convert the docker images into Kubernetes resources. You can use the latest version of these applications.
+
+2. Open the terminal and change directory to the Pneuron docker kit to where the docker-compose.yml file is.
+
+3. Run the following command `kompose convert`. This will convert the docker-compose.yml into files that can be used by Kubernetes. 
+
+    ![image.png](../img/Installation/Docker/d4.PNG)
+
+4. Run the command `sudo kubectl apply -f mssql-service.yaml,webservice-service.yaml,mssql-deployment.yaml,mmsql-claim0-persistentvolumeclaim.yaml,pneuron-deployment.yaml,webservice-deployment.yaml` and check your Kubernetes cluster for your newly deployed containers.
+
+##Deploying Dockerized Pneuron In Azure Container Groups
+
+1. To deploy the dockerized pneuron to Azure you must follow the steps on deploying it on a [linux vm](#deploying-dockerized-pneuron-on-a-linux-vm) up to step 4. Also you must create an Azure container registry. After you can begin moving the images to Azure Container Group.
+
+2. Alter the docker-compose.yaml file as follows.
+
+    - Alter the tomcat_latest image property to `(myregistry).azurecr.io/tomcat_latest`. (myregistry) is the name of your Azure container registry.
+	
+	- Alter the port for tomcat_latest to `80:80`.
+	
+3. Once saved you can run the `sudo docker-compose up --build -d` command. 
+
+4. Check if the command worked with `sudo docker images` and `sudo docker ps` commands which should show the names of the following three images.
+
+    - pneuron_latest
+	- (myregistry).azurecr.io/tomcat_latest
+	- sql_template
+	
+	> Now shut down the docker images with `sudo docker-compose down`
+	
+5. Once that is confirmed execute `docker-compose push` to push it into the Azure registry. You can check the images are there within the Azure CLI with the command `az acr repository show --name <acrName> --repository azure-vote-front`.
+
+6. Next you need to create an Azure context. Run the command `sudo docker login azure` and login using your Azure credentials. Next enter `docker context create aci pneuronaci`. To confirm this  worked run `docker contaxt ls` to see the ACI context added to your Docker contexts.
+
+7. Now it is time to deploy the application to Azure container instances. run `docker context use pneuronaci` to set the context. Now run `sudo docker-compose up` to start the application in Azure Container Instances. In a short period of time you will see sample output showing each image has been created. 
